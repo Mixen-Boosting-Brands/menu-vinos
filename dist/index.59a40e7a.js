@@ -2933,8 +2933,12 @@ var _layout = require("../pages/Layout");
 var _layoutDefault = parcelHelpers.interopDefault(_layout);
 var _home = require("../pages/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
+var _catalogoVinos = require("../pages/CatalogoVinos");
+var _catalogoVinosDefault = parcelHelpers.interopDefault(_catalogoVinos);
 var _vinos = require("../pages/Vinos");
 var _vinosDefault = parcelHelpers.interopDefault(_vinos);
+var _especificacionesVinos = require("../pages/EspecificacionesVinos");
+var _especificacionesVinosDefault = parcelHelpers.interopDefault(_especificacionesVinos);
 var _postres = require("../pages/Postres");
 var _postresDefault = parcelHelpers.interopDefault(_postres);
 var _noPage = require("../pages/NoPage");
@@ -2951,7 +2955,15 @@ function App() {
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/app.js",
-                        lineNumber: 14,
+                        lineNumber: 16,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "catalogo",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _catalogoVinosDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/js/app.js",
+                        lineNumber: 17,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2959,7 +2971,39 @@ function App() {
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _vinosDefault.default), {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/app.js",
-                        lineNumber: 15,
+                        lineNumber: 18,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "tinto",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _vinosDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/js/app.js",
+                        lineNumber: 19,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "rosado",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _vinosDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/js/app.js",
+                        lineNumber: 20,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "blanco",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _vinosDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/js/app.js",
+                        lineNumber: 21,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "especificaciones",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _especificacionesVinosDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/js/app.js",
+                        lineNumber: 22,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2967,7 +3011,7 @@ function App() {
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _postresDefault.default), {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/app.js",
-                        lineNumber: 16,
+                        lineNumber: 23,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2975,23 +3019,23 @@ function App() {
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _noPageDefault.default), {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/app.js",
-                        lineNumber: 17,
+                        lineNumber: 24,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/app.js",
-                lineNumber: 13,
+                lineNumber: 15,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "src/js/app.js",
-            lineNumber: 12,
+            lineNumber: 14,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "src/js/app.js",
-        lineNumber: 11,
+        lineNumber: 13,
         columnNumber: 9
     }, this);
 }
@@ -3001,7 +3045,7 @@ const container = document.getElementById("app");
 const root = (0, _client.createRoot)(container);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/js/app.js",
-    lineNumber: 26,
+    lineNumber: 33,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3012,7 +3056,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../pages/Layout":"f5qyM","../pages/Home":"KEnRd","../pages/Vinos":"bS6cn","../pages/Postres":"gxPWC","../pages/NoPage":"9UQyI"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../pages/Layout":"f5qyM","../pages/Home":"KEnRd","../pages/Vinos":"bS6cn","../pages/Postres":"gxPWC","../pages/NoPage":"9UQyI","../pages/CatalogoVinos":"3wO01","../pages/EspecificacionesVinos":"l6Lfe"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("aca664c75b24aecc");
 
@@ -32606,7 +32650,7 @@ const Layout = ()=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "list-inline-item",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.NavLink), {
-                                to: "/Vinos",
+                                to: "/catalogo",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactFontawesome.FontAwesomeIcon), {
                                         icon: (0, _freeSolidSvgIcons.faWineBottle)
@@ -32630,7 +32674,7 @@ const Layout = ()=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "list-inline-item",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.NavLink), {
-                                to: "/Postres",
+                                to: "/postres",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactFontawesome.FontAwesomeIcon), {
                                         icon: (0, _freeSolidSvgIcons.faIceCream)
@@ -32677,8 +32721,8 @@ const Layout = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                     to: "/",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "Agave"
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "logo"
                     }, void 0, false, {
                         fileName: "src/pages/Layout.js",
                         lineNumber: 36,
@@ -58082,14 +58126,20 @@ const Home = ()=>{
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "overlay",
-                            children: "Vinos"
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Vinos"
+                            }, void 0, false, {
+                                fileName: "src/pages/Home.js",
+                                lineNumber: 16,
+                                columnNumber: 25
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/Home.js",
                             lineNumber: 15,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/Vinos",
+                            to: "/catalogo",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                 children: "Vinos"
                             }, void 0, false, {
@@ -58120,14 +58170,20 @@ const Home = ()=>{
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "overlay",
-                            children: "Postres"
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Postres"
+                            }, void 0, false, {
+                                fileName: "src/pages/Home.js",
+                                lineNumber: 26,
+                                columnNumber: 25
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/Home.js",
                             lineNumber: 25,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/Postres",
+                            to: "/postres",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                 children: "Postres"
                             }, void 0, false, {
@@ -58181,6 +58237,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactRouterDom = require("react-router-dom");
+var _reactFontawesome = require("@fortawesome/react-fontawesome");
+var _freeSolidSvgIcons = require("@fortawesome/free-solid-svg-icons");
 // Import Swiper React components
 var _react1 = require("swiper/react");
 // Import Swiper styles
@@ -58188,75 +58246,251 @@ var _swiperMinCss = require("swiper/swiper.min.css");
 var _paginationMinCss = require("swiper/modules/pagination/pagination.min.css");
 // Import required modules
 var _swiper = require("swiper");
-// Import Vinos data
-var _vinosJson = require("../data/vinos.json");
-var _vinosJsonDefault = parcelHelpers.interopDefault(_vinosJson);
-// Import Vinos thumbnails
-var _thumbVinoPng = require("../images/vinos/thumb-vino-*.png");
+// Import Vino Tinto data
+var _tintoJson = require("../data/tinto.json");
+var _tintoJsonDefault = parcelHelpers.interopDefault(_tintoJson);
+// Import Vino Rosado data
+var _rosadoJson = require("../data/rosado.json");
+var _rosadoJsonDefault = parcelHelpers.interopDefault(_rosadoJson);
+// Import Vino Blanco data
+var _blancoJson = require("../data/blanco.json");
+var _blancoJsonDefault = parcelHelpers.interopDefault(_blancoJson);
+// Import Vino Tinto thumbnails
+var _thumbVinoPng = require("../images/vinos/tinto/thumb-vino-*.png");
+// Import Vino Rosado thumbnails
+var _thumbVinoPng1 = require("../images/vinos/rosado/thumb-vino-*.png");
+// Import Vino Blanco thumbnails
+var _thumbVinoPng2 = require("../images/vinos/blanco/thumb-vino-*.png");
 var _s = $RefreshSig$();
 const CarruselVinos = ()=>{
     _s();
+    let location = (0, _reactRouterDom.useLocation)();
     (0, _react.useEffect)(()=>{
         document.body.classList.add("carrusel-layout");
         return ()=>{
             document.body.classList.remove("carrusel-layout");
         };
-    }, []);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "row",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "col-12 overflow-hidden",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Swiper), {
-                slidesPerView: 4,
-                spaceBetween: 30,
-                pagination: {
-                    clickable: true
-                },
-                modules: [
-                    (0, _swiper.Pagination)
-                ],
-                className: "carrusel",
-                children: (0, _vinosJsonDefault.default).map((vino, i)=>{
-                    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/Vinos",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: _thumbVinoPng[i + 1],
-                                alt: "",
-                                className: "img-fluid"
-                            }, void 0, false, {
+    }, [
+        location
+    ]);
+    switch(location.pathname){
+        case "/tinto":
+            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "col-12 overflow-hidden",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Swiper), {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                        pagination: {
+                            clickable: true
+                        },
+                        modules: [
+                            (0, _swiper.Pagination)
+                        ],
+                        className: "carrusel",
+                        children: (0, _tintoJsonDefault.default).map((vino, i)=>{
+                            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/especificaciones",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: _thumbVinoPng[i + 1],
+                                        alt: "",
+                                        className: "img-fluid"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/Vinos.js",
+                                        lineNumber: 60,
+                                        columnNumber: 49
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/pages/Vinos.js",
+                                    lineNumber: 59,
+                                    columnNumber: 45
+                                }, undefined)
+                            }, i, false, {
                                 fileName: "src/pages/Vinos.js",
-                                lineNumber: 43,
+                                lineNumber: 58,
                                 columnNumber: 41
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/pages/Vinos.js",
-                            lineNumber: 42,
-                            columnNumber: 37
-                        }, undefined)
-                    }, i, false, {
+                            }, undefined);
+                        })
+                    }, void 0, false, {
                         fileName: "src/pages/Vinos.js",
-                        lineNumber: 41,
-                        columnNumber: 33
-                    }, undefined);
-                })
+                        lineNumber: 46,
+                        columnNumber: 25
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/pages/Vinos.js",
+                    lineNumber: 45,
+                    columnNumber: 21
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/pages/Vinos.js",
-                lineNumber: 29,
+                lineNumber: 44,
                 columnNumber: 17
-            }, undefined)
-        }, void 0, false, {
-            fileName: "src/pages/Vinos.js",
-            lineNumber: 28,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/pages/Vinos.js",
-        lineNumber: 27,
-        columnNumber: 9
-    }, undefined);
+            }, undefined);
+        case "/rosado":
+            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "col-12 overflow-hidden",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Swiper), {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                        pagination: {
+                            clickable: true
+                        },
+                        modules: [
+                            (0, _swiper.Pagination)
+                        ],
+                        className: "carrusel",
+                        children: (0, _rosadoJsonDefault.default).map((vino, i)=>{
+                            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/especificaciones",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: _thumbVinoPng1[i + 1],
+                                        alt: "",
+                                        className: "img-fluid"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/Vinos.js",
+                                        lineNumber: 89,
+                                        columnNumber: 49
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/pages/Vinos.js",
+                                    lineNumber: 88,
+                                    columnNumber: 45
+                                }, undefined)
+                            }, i, false, {
+                                fileName: "src/pages/Vinos.js",
+                                lineNumber: 87,
+                                columnNumber: 41
+                            }, undefined);
+                        })
+                    }, void 0, false, {
+                        fileName: "src/pages/Vinos.js",
+                        lineNumber: 75,
+                        columnNumber: 25
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/pages/Vinos.js",
+                    lineNumber: 74,
+                    columnNumber: 21
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/pages/Vinos.js",
+                lineNumber: 73,
+                columnNumber: 17
+            }, undefined);
+        case "/blanco":
+            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "col-12 overflow-hidden",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Swiper), {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                        pagination: {
+                            clickable: true
+                        },
+                        modules: [
+                            (0, _swiper.Pagination)
+                        ],
+                        className: "carrusel",
+                        children: (0, _blancoJsonDefault.default).map((vino, i)=>{
+                            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/especificaciones",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: _thumbVinoPng2[i + 1],
+                                        alt: "",
+                                        className: "img-fluid"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/Vinos.js",
+                                        lineNumber: 118,
+                                        columnNumber: 49
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/pages/Vinos.js",
+                                    lineNumber: 117,
+                                    columnNumber: 45
+                                }, undefined)
+                            }, i, false, {
+                                fileName: "src/pages/Vinos.js",
+                                lineNumber: 116,
+                                columnNumber: 41
+                            }, undefined);
+                        })
+                    }, void 0, false, {
+                        fileName: "src/pages/Vinos.js",
+                        lineNumber: 104,
+                        columnNumber: 25
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/pages/Vinos.js",
+                    lineNumber: 103,
+                    columnNumber: 21
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/pages/Vinos.js",
+                lineNumber: 102,
+                columnNumber: 17
+            }, undefined);
+        default:
+            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "col-12 text-center",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: "Error"
+                        }, void 0, false, {
+                            fileName: "src/pages/Vinos.js",
+                            lineNumber: 133,
+                            columnNumber: 25
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Error al cargar la informaci\xf3n."
+                        }, void 0, false, {
+                            fileName: "src/pages/Vinos.js",
+                            lineNumber: 134,
+                            columnNumber: 25
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactFontawesome.FontAwesomeIcon), {
+                                    icon: (0, _freeSolidSvgIcons.faHouse)
+                                }, void 0, false, {
+                                    fileName: "src/pages/Vinos.js",
+                                    lineNumber: 138,
+                                    columnNumber: 29
+                                }, undefined),
+                                " Home"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/pages/Vinos.js",
+                            lineNumber: 137,
+                            columnNumber: 25
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/pages/Vinos.js",
+                    lineNumber: 132,
+                    columnNumber: 21
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/pages/Vinos.js",
+                lineNumber: 131,
+                columnNumber: 17
+            }, undefined);
+    }
 };
-_s(CarruselVinos, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_s(CarruselVinos, "BXcZrDMM76mmm4zA8/QV5UbMNXE=", false, function() {
+    return [
+        (0, _reactRouterDom.useLocation)
+    ];
+});
 _c = CarruselVinos;
 exports.default = CarruselVinos;
 var _c;
@@ -58267,7 +58501,7 @@ $RefreshReg$(_c, "CarruselVinos");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-router-dom":"9xmpe","swiper/react":"61fs7","swiper/swiper.min.css":"eFTGe","swiper/modules/pagination/pagination.min.css":"f26n8","swiper":"cCbRx","../data/vinos.json":"1gUvX","../images/vinos/thumb-vino-*.png":"a4j87"}],"61fs7":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-router-dom":"9xmpe","swiper/react":"61fs7","swiper/swiper.min.css":"eFTGe","swiper/modules/pagination/pagination.min.css":"f26n8","swiper":"cCbRx","../data/tinto.json":"9D7cm","../data/rosado.json":"jmYy0","../data/blanco.json":"5WJcd","../images/vinos/tinto/thumb-vino-*.png":"crN2S","../images/vinos/rosado/thumb-vino-*.png":"9kBbE","../images/vinos/blanco/thumb-vino-*.png":"8tOHR","@fortawesome/react-fontawesome":"clIT3","@fortawesome/free-solid-svg-icons":"5lkdy"}],"61fs7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _swiperReactJs = require("./swiper-react.js");
@@ -67034,18 +67268,24 @@ const SwiperSlide = /*#__PURE__*/ (0, _react.forwardRef)(function(_temp, externa
 });
 SwiperSlide.displayName = "SwiperSlide";
 
-},{"react":"21dqq","../components-shared/utils.js":"aajxi","./use-isomorphic-layout-effect.js":"fpyc0","./context.js":"30Q74","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eFTGe":[function() {},{}],"f26n8":[function() {},{}],"1gUvX":[function(require,module,exports) {
+},{"react":"21dqq","../components-shared/utils.js":"aajxi","./use-isomorphic-layout-effect.js":"fpyc0","./context.js":"30Q74","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eFTGe":[function() {},{}],"f26n8":[function() {},{}],"9D7cm":[function(require,module,exports) {
 module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":11,"nombre":"Mar\xeda Tinto","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":12,"nombre":"M de Mar\xeda Tinto","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"}]');
 
-},{}],"a4j87":[function(require,module,exports) {
-const _temp0 = require("ad876876b8025b2a");
-const _temp1 = require("70b01b80b3c7a9fa");
-const _temp2 = require("410e75fd849348cc");
-const _temp3 = require("66bd16bbaf056eb8");
-const _temp4 = require("653c21e9385f1272");
-const _temp5 = require("cf81b4327c7778c9");
-const _temp6 = require("aa58dc2881bb9d7f");
-const _temp7 = require("9dd96a2f1385af14");
+},{}],"jmYy0":[function(require,module,exports) {
+module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":11,"nombre":"Mar\xeda Tinto","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":12,"nombre":"M de Mar\xeda Tinto","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"}]');
+
+},{}],"5WJcd":[function(require,module,exports) {
+module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":11,"nombre":"Mar\xeda Tinto","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":12,"nombre":"M de Mar\xeda Tinto","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"}]');
+
+},{}],"crN2S":[function(require,module,exports) {
+const _temp0 = require("e102d342376ed7f2");
+const _temp1 = require("eac2f21163f2e846");
+const _temp2 = require("63eae3b2b5f47e9f");
+const _temp3 = require("38a876c12a181e1c");
+const _temp4 = require("f815c19ad88416ba");
+const _temp5 = require("a9b047e62bf5886e");
+const _temp6 = require("b27bcee01cdc005a");
+const _temp7 = require("e1d5ebbf3b0667b");
 module.exports = {
     "1": _temp0,
     "2": _temp1,
@@ -67057,10 +67297,10 @@ module.exports = {
     "8": _temp7
 };
 
-},{"ad876876b8025b2a":"bVFWF","70b01b80b3c7a9fa":"abPdJ","410e75fd849348cc":"crgbd","66bd16bbaf056eb8":"46idQ","653c21e9385f1272":"3JHry","cf81b4327c7778c9":"4cQ7m","aa58dc2881bb9d7f":"lVfKB","9dd96a2f1385af14":"jvfWm"}],"bVFWF":[function(require,module,exports) {
-module.exports = require("82a934e481e0caac").getBundleURL("ixJtV") + "thumb-vino-1.67c5bb31.png" + "?" + Date.now();
+},{"e102d342376ed7f2":"a5W6S","eac2f21163f2e846":"bz35J","63eae3b2b5f47e9f":"iCD1y","38a876c12a181e1c":"R0maP","f815c19ad88416ba":"4Q8aU","a9b047e62bf5886e":"bLGXw","b27bcee01cdc005a":"2Hey2","e1d5ebbf3b0667b":"gxehc"}],"a5W6S":[function(require,module,exports) {
+module.exports = require("c2503a57c5303ff4").getBundleURL("ixJtV") + "thumb-vino-1.fb22b0a7.png" + "?" + Date.now();
 
-},{"82a934e481e0caac":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"c2503a57c5303ff4":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -67094,28 +67334,116 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"abPdJ":[function(require,module,exports) {
-module.exports = require("7b42605a0013d1d7").getBundleURL("ixJtV") + "thumb-vino-2.03661505.png" + "?" + Date.now();
+},{}],"bz35J":[function(require,module,exports) {
+module.exports = require("c6e69831b8c0f45f").getBundleURL("ixJtV") + "thumb-vino-2.dea72f2e.png" + "?" + Date.now();
 
-},{"7b42605a0013d1d7":"lgJ39"}],"crgbd":[function(require,module,exports) {
-module.exports = require("7dc494451308a561").getBundleURL("ixJtV") + "thumb-vino-3.9dda179f.png" + "?" + Date.now();
+},{"c6e69831b8c0f45f":"lgJ39"}],"iCD1y":[function(require,module,exports) {
+module.exports = require("57deac850cce7b26").getBundleURL("ixJtV") + "thumb-vino-3.c87c7ff2.png" + "?" + Date.now();
 
-},{"7dc494451308a561":"lgJ39"}],"46idQ":[function(require,module,exports) {
-module.exports = require("5007c8c638115ea8").getBundleURL("ixJtV") + "thumb-vino-4.d1a70165.png" + "?" + Date.now();
+},{"57deac850cce7b26":"lgJ39"}],"R0maP":[function(require,module,exports) {
+module.exports = require("8af61bd86239cd86").getBundleURL("ixJtV") + "thumb-vino-4.228d00fb.png" + "?" + Date.now();
 
-},{"5007c8c638115ea8":"lgJ39"}],"3JHry":[function(require,module,exports) {
-module.exports = require("4a1d05b930920696").getBundleURL("ixJtV") + "thumb-vino-5.b780654a.png" + "?" + Date.now();
+},{"8af61bd86239cd86":"lgJ39"}],"4Q8aU":[function(require,module,exports) {
+module.exports = require("34be26c30734edc9").getBundleURL("ixJtV") + "thumb-vino-5.91abb8c3.png" + "?" + Date.now();
 
-},{"4a1d05b930920696":"lgJ39"}],"4cQ7m":[function(require,module,exports) {
-module.exports = require("f5889a207781de5c").getBundleURL("ixJtV") + "thumb-vino-6.363c6b6c.png" + "?" + Date.now();
+},{"34be26c30734edc9":"lgJ39"}],"bLGXw":[function(require,module,exports) {
+module.exports = require("39001c69882a485d").getBundleURL("ixJtV") + "thumb-vino-6.fe2c7495.png" + "?" + Date.now();
 
-},{"f5889a207781de5c":"lgJ39"}],"lVfKB":[function(require,module,exports) {
-module.exports = require("ed5dcfc047ffae4d").getBundleURL("ixJtV") + "thumb-vino-7.cb57d50e.png" + "?" + Date.now();
+},{"39001c69882a485d":"lgJ39"}],"2Hey2":[function(require,module,exports) {
+module.exports = require("68710321b0594d02").getBundleURL("ixJtV") + "thumb-vino-7.5dc68a2c.png" + "?" + Date.now();
 
-},{"ed5dcfc047ffae4d":"lgJ39"}],"jvfWm":[function(require,module,exports) {
-module.exports = require("d9a843fe4e748349").getBundleURL("ixJtV") + "thumb-vino-8.9c3348b4.png" + "?" + Date.now();
+},{"68710321b0594d02":"lgJ39"}],"gxehc":[function(require,module,exports) {
+module.exports = require("6d02691d658a0e2a").getBundleURL("ixJtV") + "thumb-vino-8.d6ed7663.png" + "?" + Date.now();
 
-},{"d9a843fe4e748349":"lgJ39"}],"gxPWC":[function(require,module,exports) {
+},{"6d02691d658a0e2a":"lgJ39"}],"9kBbE":[function(require,module,exports) {
+const _temp0 = require("d7f101cacd2aec48");
+const _temp1 = require("af33126ee3cd75d0");
+const _temp2 = require("4a44ee1f0bb998ff");
+const _temp3 = require("9fccc6fbcba07767");
+const _temp4 = require("2a135430993f1d5e");
+const _temp5 = require("4e41ea65e9fd2c78");
+const _temp6 = require("bda4da27f42f9fed");
+const _temp7 = require("e228d5f3286ae0de");
+module.exports = {
+    "1": _temp0,
+    "2": _temp1,
+    "3": _temp2,
+    "4": _temp3,
+    "5": _temp4,
+    "6": _temp5,
+    "7": _temp6,
+    "8": _temp7
+};
+
+},{"d7f101cacd2aec48":"hTpzX","af33126ee3cd75d0":"ihKTQ","4a44ee1f0bb998ff":"ff6ja","9fccc6fbcba07767":"4Mjze","2a135430993f1d5e":"ifqVd","4e41ea65e9fd2c78":"3HZQy","bda4da27f42f9fed":"5M9zE","e228d5f3286ae0de":"4BCNf"}],"hTpzX":[function(require,module,exports) {
+module.exports = require("8cf9b2517ccfdd7a").getBundleURL("ixJtV") + "thumb-vino-1.e1a05189.png" + "?" + Date.now();
+
+},{"8cf9b2517ccfdd7a":"lgJ39"}],"ihKTQ":[function(require,module,exports) {
+module.exports = require("ff50580817bf729").getBundleURL("ixJtV") + "thumb-vino-2.977b3479.png" + "?" + Date.now();
+
+},{"ff50580817bf729":"lgJ39"}],"ff6ja":[function(require,module,exports) {
+module.exports = require("53ac71ae1a28b0a4").getBundleURL("ixJtV") + "thumb-vino-3.02a74df2.png" + "?" + Date.now();
+
+},{"53ac71ae1a28b0a4":"lgJ39"}],"4Mjze":[function(require,module,exports) {
+module.exports = require("dc049a3798d65d05").getBundleURL("ixJtV") + "thumb-vino-4.e1c7544b.png" + "?" + Date.now();
+
+},{"dc049a3798d65d05":"lgJ39"}],"ifqVd":[function(require,module,exports) {
+module.exports = require("5a0992778df643d2").getBundleURL("ixJtV") + "thumb-vino-5.d1ae2477.png" + "?" + Date.now();
+
+},{"5a0992778df643d2":"lgJ39"}],"3HZQy":[function(require,module,exports) {
+module.exports = require("f29f08c5690fdad6").getBundleURL("ixJtV") + "thumb-vino-6.9396614d.png" + "?" + Date.now();
+
+},{"f29f08c5690fdad6":"lgJ39"}],"5M9zE":[function(require,module,exports) {
+module.exports = require("5bef4243432842cf").getBundleURL("ixJtV") + "thumb-vino-7.2c358df9.png" + "?" + Date.now();
+
+},{"5bef4243432842cf":"lgJ39"}],"4BCNf":[function(require,module,exports) {
+module.exports = require("b49cf6c13594b68a").getBundleURL("ixJtV") + "thumb-vino-8.27053ce2.png" + "?" + Date.now();
+
+},{"b49cf6c13594b68a":"lgJ39"}],"8tOHR":[function(require,module,exports) {
+const _temp0 = require("bc15b6eb21f44106");
+const _temp1 = require("e9428f87526c06bd");
+const _temp2 = require("45f0f95b33009b86");
+const _temp3 = require("2b48dd9b048dd6d1");
+const _temp4 = require("5747d7f302ffb762");
+const _temp5 = require("a0c9c7ada80f4ee8");
+const _temp6 = require("a25991db18e81e2c");
+const _temp7 = require("684118c83130493f");
+module.exports = {
+    "1": _temp0,
+    "2": _temp1,
+    "3": _temp2,
+    "4": _temp3,
+    "5": _temp4,
+    "6": _temp5,
+    "7": _temp6,
+    "8": _temp7
+};
+
+},{"bc15b6eb21f44106":"b5G8D","e9428f87526c06bd":"1tT91","45f0f95b33009b86":"hzeXM","2b48dd9b048dd6d1":"cl94L","5747d7f302ffb762":"bK5cm","a0c9c7ada80f4ee8":"8Sci6","a25991db18e81e2c":"hSd2Z","684118c83130493f":"2QcyZ"}],"b5G8D":[function(require,module,exports) {
+module.exports = require("b226a5a477cc870").getBundleURL("ixJtV") + "thumb-vino-1.f5847aaa.png" + "?" + Date.now();
+
+},{"b226a5a477cc870":"lgJ39"}],"1tT91":[function(require,module,exports) {
+module.exports = require("54ec80cef40bf9d7").getBundleURL("ixJtV") + "thumb-vino-2.091d60e4.png" + "?" + Date.now();
+
+},{"54ec80cef40bf9d7":"lgJ39"}],"hzeXM":[function(require,module,exports) {
+module.exports = require("6b9567fd3b9e9f8c").getBundleURL("ixJtV") + "thumb-vino-3.89d6d894.png" + "?" + Date.now();
+
+},{"6b9567fd3b9e9f8c":"lgJ39"}],"cl94L":[function(require,module,exports) {
+module.exports = require("5bf481c96c3c5fd2").getBundleURL("ixJtV") + "thumb-vino-4.4fe132ad.png" + "?" + Date.now();
+
+},{"5bf481c96c3c5fd2":"lgJ39"}],"bK5cm":[function(require,module,exports) {
+module.exports = require("3be871c084661ebf").getBundleURL("ixJtV") + "thumb-vino-5.585cdf24.png" + "?" + Date.now();
+
+},{"3be871c084661ebf":"lgJ39"}],"8Sci6":[function(require,module,exports) {
+module.exports = require("430318b166b3a596").getBundleURL("ixJtV") + "thumb-vino-6.5ce1efa8.png" + "?" + Date.now();
+
+},{"430318b166b3a596":"lgJ39"}],"hSd2Z":[function(require,module,exports) {
+module.exports = require("9470926aa71b618b").getBundleURL("ixJtV") + "thumb-vino-7.eca20e26.png" + "?" + Date.now();
+
+},{"9470926aa71b618b":"lgJ39"}],"2QcyZ":[function(require,module,exports) {
+module.exports = require("5b2cf83e4524fd2").getBundleURL("ixJtV") + "thumb-vino-8.3c723001.png" + "?" + Date.now();
+
+},{"5b2cf83e4524fd2":"lgJ39"}],"gxPWC":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b466 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -67252,6 +67580,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactRouterDom = require("react-router-dom");
+var _reactFontawesome = require("@fortawesome/react-fontawesome");
+var _freeSolidSvgIcons = require("@fortawesome/free-solid-svg-icons");
 var _s = $RefreshSig$();
 const NoPage = ()=>{
     _s();
@@ -67267,28 +67597,45 @@ const NoPage = ()=>{
             className: "col-12 text-center",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "Error 404"
+                    children: "Error"
                 }, void 0, false, {
                     fileName: "src/pages/NoPage.js",
-                    lineNumber: 15,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "P\xe1gina no encontrada."
+                    children: "Error al cargar la informaci\xf3n."
                 }, void 0, false, {
                     fileName: "src/pages/NoPage.js",
-                    lineNumber: 16,
+                    lineNumber: 18,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactFontawesome.FontAwesomeIcon), {
+                            icon: (0, _freeSolidSvgIcons.faHouse)
+                        }, void 0, false, {
+                            fileName: "src/pages/NoPage.js",
+                            lineNumber: 22,
+                            columnNumber: 21
+                        }, undefined),
+                        " Home"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/pages/NoPage.js",
+                    lineNumber: 21,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/pages/NoPage.js",
-            lineNumber: 14,
+            lineNumber: 16,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/pages/NoPage.js",
-        lineNumber: 13,
+        lineNumber: 15,
         columnNumber: 9
     }, undefined);
 };
@@ -67303,6 +67650,433 @@ $RefreshReg$(_c, "NoPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-router-dom":"9xmpe"}]},["1xC6H","6fRhY","8lRBv"], "8lRBv", "parcelRequiree3fa")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-router-dom":"9xmpe","@fortawesome/react-fontawesome":"clIT3","@fortawesome/free-solid-svg-icons":"5lkdy"}],"3wO01":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$43fb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$43fb.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+// Import CatalogoVinos data
+// import CatalogoVinos from '../data/catalogovinos.json';
+const CatalogoVinos = ()=>{
+    _s();
+    (0, _react.useEffect)(()=>{
+        document.body.classList.add("catalogo-vinos-layout");
+        return ()=>{
+            document.body.classList.remove("catalogo-vinos-layout");
+        };
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "row",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "col-12",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "row",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "col-6 offset-3 col-md-6 offset-md-3",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "boton-catalogo boton-catalogo-tinto",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/tinto",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    children: "Tinto"
+                                }, void 0, false, {
+                                    fileName: "src/pages/CatalogoVinos.js",
+                                    lineNumber: 21,
+                                    columnNumber: 33
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/pages/CatalogoVinos.js",
+                                lineNumber: 20,
+                                columnNumber: 29
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/pages/CatalogoVinos.js",
+                            lineNumber: 19,
+                            columnNumber: 25
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/CatalogoVinos.js",
+                        lineNumber: 18,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/pages/CatalogoVinos.js",
+                    lineNumber: 17,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "row",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-6 col-md-5 offset-md-1 col-lg-3 offset-lg-3",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "boton-catalogo boton-catalogo-rosado",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/rosado",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        children: "Rosado"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/CatalogoVinos.js",
+                                        lineNumber: 30,
+                                        columnNumber: 33
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/pages/CatalogoVinos.js",
+                                    lineNumber: 29,
+                                    columnNumber: 29
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/pages/CatalogoVinos.js",
+                                lineNumber: 28,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/pages/CatalogoVinos.js",
+                            lineNumber: 27,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-6 col-md-5 col-lg-3",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "boton-catalogo boton-catalogo-blanco",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/blanco",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        children: "Blanco"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/CatalogoVinos.js",
+                                        lineNumber: 37,
+                                        columnNumber: 33
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/pages/CatalogoVinos.js",
+                                    lineNumber: 36,
+                                    columnNumber: 29
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/pages/CatalogoVinos.js",
+                                lineNumber: 35,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/pages/CatalogoVinos.js",
+                            lineNumber: 34,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/pages/CatalogoVinos.js",
+                    lineNumber: 26,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/pages/CatalogoVinos.js",
+            lineNumber: 16,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/pages/CatalogoVinos.js",
+        lineNumber: 15,
+        columnNumber: 9
+    }, undefined);
+};
+_s(CatalogoVinos, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = CatalogoVinos;
+exports.default = CatalogoVinos;
+var _c;
+$RefreshReg$(_c, "CatalogoVinos");
+
+  $parcel$ReactRefreshHelpers$43fb.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"l6Lfe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4486 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4486.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactRouterDom = require("react-router-dom");
+// Import Vino Tinto data
+var _tintoJson = require("../data/tinto.json");
+var _tintoJsonDefault = parcelHelpers.interopDefault(_tintoJson);
+// Import Vino Rosado data
+var _rosadoJson = require("../data/rosado.json");
+var _rosadoJsonDefault = parcelHelpers.interopDefault(_rosadoJson);
+// Import Vino Blanco data
+var _blancoJson = require("../data/blanco.json");
+var _blancoJsonDefault = parcelHelpers.interopDefault(_blancoJson);
+// Import Vino Tinto thumbnails
+var _thumbVinoPng = require("../images/vinos/tinto/thumb-vino-*.png");
+// Import Vino Rosado thumbnails
+var _thumbVinoPng1 = require("../images/vinos/rosado/thumb-vino-*.png");
+// Import Vino Blanco thumbnails
+var _thumbVinoPng2 = require("../images/vinos/blanco/thumb-vino-*.png");
+var _s = $RefreshSig$();
+const EspecificacionesVinos = ()=>{
+    _s();
+    (0, _react.useEffect)(()=>{
+        document.body.classList.add("especificaciones-vinos-layout");
+        return ()=>{
+            document.body.classList.remove("especificaciones-vinos-layout");
+        };
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "row",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "col-3 offset-2"
+            }, void 0, false, {
+                fileName: "src/pages/EspecificacionesVinos.js",
+                lineNumber: 31,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "col-6",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "row",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-12",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: "Nombre"
+                            }, void 0, false, {
+                                fileName: "src/pages/EspecificacionesVinos.js",
+                                lineNumber: 37,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/pages/EspecificacionesVinos.js",
+                            lineNumber: 36,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "col-12",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "table-responsive",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                                    class: "table",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                        scope: "col",
+                                                        children: "#"
+                                                    }, void 0, false, {
+                                                        fileName: "src/pages/EspecificacionesVinos.js",
+                                                        lineNumber: 44,
+                                                        columnNumber: 41
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                        scope: "col",
+                                                        children: "First"
+                                                    }, void 0, false, {
+                                                        fileName: "src/pages/EspecificacionesVinos.js",
+                                                        lineNumber: 45,
+                                                        columnNumber: 41
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                        scope: "col",
+                                                        children: "Last"
+                                                    }, void 0, false, {
+                                                        fileName: "src/pages/EspecificacionesVinos.js",
+                                                        lineNumber: 46,
+                                                        columnNumber: 41
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                        scope: "col",
+                                                        children: "Handle"
+                                                    }, void 0, false, {
+                                                        fileName: "src/pages/EspecificacionesVinos.js",
+                                                        lineNumber: 47,
+                                                        columnNumber: 41
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/pages/EspecificacionesVinos.js",
+                                                lineNumber: 43,
+                                                columnNumber: 37
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                            lineNumber: 42,
+                                            columnNumber: 33
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                            scope: "row",
+                                                            children: "1"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 52,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: "Mark"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 53,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: "Otto"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 54,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: "@mdo"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 55,
+                                                            columnNumber: 41
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/pages/EspecificacionesVinos.js",
+                                                    lineNumber: 51,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                            scope: "row",
+                                                            children: "2"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 58,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: "Jacob"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 59,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: "Thornton"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 60,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: "@fat"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 61,
+                                                            columnNumber: 41
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/pages/EspecificacionesVinos.js",
+                                                    lineNumber: 57,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                            scope: "row",
+                                                            children: "3"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 64,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            colspan: "2",
+                                                            children: "Larry the Bird"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 65,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: "@twitter"
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 66,
+                                                            columnNumber: 41
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/pages/EspecificacionesVinos.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 37
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                            lineNumber: 50,
+                                            columnNumber: 33
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/pages/EspecificacionesVinos.js",
+                                    lineNumber: 41,
+                                    columnNumber: 29
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/pages/EspecificacionesVinos.js",
+                                lineNumber: 40,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/pages/EspecificacionesVinos.js",
+                            lineNumber: 39,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/pages/EspecificacionesVinos.js",
+                    lineNumber: 35,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/pages/EspecificacionesVinos.js",
+                lineNumber: 34,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/EspecificacionesVinos.js",
+        lineNumber: 30,
+        columnNumber: 9
+    }, undefined);
+};
+_s(EspecificacionesVinos, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = EspecificacionesVinos;
+exports.default = EspecificacionesVinos;
+var _c;
+$RefreshReg$(_c, "EspecificacionesVinos");
+
+  $parcel$ReactRefreshHelpers$4486.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../data/tinto.json":"9D7cm","../data/rosado.json":"jmYy0","../data/blanco.json":"5WJcd","../images/vinos/tinto/thumb-vino-*.png":"crN2S","../images/vinos/rosado/thumb-vino-*.png":"9kBbE","../images/vinos/blanco/thumb-vino-*.png":"8tOHR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","6fRhY","8lRBv"], "8lRBv", "parcelRequiree3fa")
 
 //# sourceMappingURL=index.59a40e7a.js.map

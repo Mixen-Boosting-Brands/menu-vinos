@@ -8,8 +8,8 @@ body {
 body {
     font-family: 'futurabook', sans-serif;
     position: relative;
-    background-color: #0C0C0C;
-    color: #B9B9B9;
+    background-color: $negro;
+    color: $gris;
     width: 100%;
     height: 100%;
     float: left;
@@ -20,45 +20,13 @@ body {
     @include transition(ease, 0.3s);
 
     a {
-        color: #B9B9B9;
+        color: $gris;
         text-decoration: none;
         @include transition(ease, 0.3s);
 
         &:hover {
-            color: white;
+            color: $blanco;
         }
-    }
-}
-
-.home-layout {
-    background-color: #EFD5B9;
-    color: #0C0C0C;
-
-    a {
-        color: #0C0C0C;
-
-        &:hover {
-            color: white;
-        }
-    }
-
-    .active {
-        color: white;
-    }
-}
-
-.carrusel-layout,
-.no-page-layout {
-    a {
-        color: #B9B9B9;
-
-        &:hover {
-            color: #EFD5B9;
-        }
-    }
-
-    .active {
-        color: #EFD5B9;
     }
 }
 
@@ -106,7 +74,27 @@ footer {
     text-align: center;
 
     a {
+        color: $negro;
         display: inline-block;
+
+        &:hover {
+            color: $guinda;
+        }
+    }
+
+    .active {
+        color: $negro;
+    }
+
+    .logo {
+        @include background('../images/logo.svg', center, contain);
+        width: 132px;
+        height: 74px;
+        @include transition(ease, 0.3s);
+
+        &:hover {
+            filter: brightness(0) saturate(100%) invert(9%) sepia(67%) saturate(4609%) hue-rotate(348deg) brightness(88%) contrast(90%);
+        }
     }
 }
 
@@ -121,60 +109,4 @@ h4,
 h5,
 h6 {
     font-family: 'colusregular', serif;
-}
-
-.boton-home {
-    background-color: white;
-    border-radius: 30px;
-    color: black;
-    font-family: 'colusregular', serif;
-    width: 100%;
-    min-height: 64vh;
-    float: left;
-    position: relative;
-    overflow: hidden;
-    @include transition(ease, 0.3s);
-
-    a {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        display: block;
-
-        span {
-            display: none;
-        }
-    }
-
-    .overlay {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%);
-        color: white;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        padding: 30px;
-
-        p {
-            @include font-size(4rem);
-        }
-    }
-
-    &:hover {
-        -webkit-transform: translate(0, -10px);
-            -ms-transform: translate(0, -10px);
-                transform: translate(0, -10px);
-    }
-}
-
-.boton-home-vinos {
-    @include background('../images/bg-boton-home-vinos.webp', center, cover);
-}
-
-.boton-home-postres {
-    @include background('../images/bg-boton-home-postres.webp', center, cover);
 }

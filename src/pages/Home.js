@@ -13,9 +13,9 @@ const Home = () => {
             <div className="col-6 col-lg-4 offset-lg-2">
                 <div className="boton-home boton-home-vinos">
                     <div className="overlay">
-                        Vinos
+                        <span>Vinos</span>
                     </div>
-                    <Link to="/Vinos">
+                    <Link to="/catalogo">
                         <span>Vinos</span>
                     </Link>
                 </div>
@@ -23,9 +23,9 @@ const Home = () => {
             <div className="col-6 col-lg-3 offset-lg-1">
                 <div className="boton-home boton-home-postres">
                     <div className="overlay">
-                        Postres
+                        <span>Postres</span>
                     </div>
-                    <Link to="/Postres">
+                    <Link to="/postres">
                         <span>Postres</span>
                     </Link>
                 </div>

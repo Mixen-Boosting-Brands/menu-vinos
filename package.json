@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/Mixen-Boosting-Brands/menu-vinos#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
     "@parcel/resolver-glob": "^2.8.3",
     "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },

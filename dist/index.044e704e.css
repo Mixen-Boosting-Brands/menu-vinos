@@ -12006,33 +12006,6 @@ textarea.form-control-lg {
   }
 }
 
-@font-face {
-  font-family: colusregular;
-  src: url("colusregular-webfont.f4c4d61c.woff2") format("woff2"), url("colusregular-webfont.f0d7d0b3.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: futurabook;
-  src: url("futura_book_font-webfont.4e0e38cc.woff2") format("woff2"), url("futura_book_font-webfont.52dd5509.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: futuralight;
-  src: url("futura_light_bt-webfont.ddf9ad3a.woff2") format("woff2"), url("futura_light_bt-webfont.dea500a5.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media only screen and (orientation: portrait) {
-  body {
-    opacity: 0;
-  }
-}
-
 :root {
   --swiper-theme-color: white;
   --swiper-pagination-bullet-inactive-color: white;
@@ -12074,11 +12047,40 @@ textarea.form-control-lg {
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-  -o-transition: ease .3s;
+  transition: all, all .3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .swiper-pagination .swiper-pagination-bullet-active {
+    transition: none;
+  }
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
   width: 15px;
   height: 15px;
   background-color: #fff;
-  transition: all .3s;
+}
+
+@font-face {
+  font-family: colusregular;
+  src: url("colusregular-webfont.f4c4d61c.woff2") format("woff2"), url("colusregular-webfont.f0d7d0b3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: futurabook;
+  src: url("futura_book_font-webfont.4e0e38cc.woff2") format("woff2"), url("futura_book_font-webfont.52dd5509.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: futuralight;
+  src: url("futura_light_bt-webfont.ddf9ad3a.woff2") format("woff2"), url("futura_light_bt-webfont.dea500a5.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 html, body {
@@ -12092,7 +12094,7 @@ body {
   height: 100%;
   float: left;
   -o-transition: ease .3s;
-  background-color: #0c0c0c;
+  background-color: #000;
   justify-content: center;
   align-items: center;
   font-family: futurabook, sans-serif;
@@ -12117,27 +12119,6 @@ body a {
 
 body a:hover {
   color: #fff;
-}
-
-.home-layout {
-  color: #0c0c0c;
-  background-color: #efd5b9;
-}
-
-.home-layout a {
-  color: #0c0c0c;
-}
-
-.home-layout a:hover, .home-layout .active {
-  color: #fff;
-}
-
-.carrusel-layout a, .no-page-layout a {
-  color: #b9b9b9;
-}
-
-.carrusel-layout a:hover, .no-page-layout a:hover, .carrusel-layout .active, .no-page-layout .active {
-  color: #efd5b9;
 }
 
 #app {
@@ -12182,7 +12163,28 @@ footer {
 }
 
 footer a {
+  color: #000;
   display: inline-block;
+}
+
+footer a:hover {
+  color: #6f171b;
+}
+
+footer .active {
+  color: #000;
+}
+
+footer .logo {
+  width: 132px;
+  height: 74px;
+  -o-transition: ease .3s;
+  background: url("logo.cd13699a.svg") center / contain no-repeat;
+  transition: all .3s;
+}
+
+footer .logo:hover {
+  filter: brightness(0) saturate() invert(9%) sepia(67%) saturate(4609%) hue-rotate(348deg) brightness(88%) contrast(90%);
 }
 
 .mh-100 {
@@ -12193,21 +12195,35 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: colusregular, serif;
 }
 
-.boton-home {
+.home-layout {
   color: #000;
+  background: #efd5b9 url("bg-home.f8fc979d.webp") center / cover no-repeat;
+}
+
+.home-layout a {
+  color: #000;
+}
+
+.home-layout a:hover, .home-layout .active {
+  color: #6f171b;
+}
+
+.home-layout .boton-home {
+  color: #000;
+  text-transform: lowercase;
   width: 100%;
   min-height: 64vh;
   float: left;
   -o-transition: ease .3s;
   background-color: #fff;
   border-radius: 30px;
-  font-family: colusregular, serif;
+  font-family: futurabook, sans-serif;
   transition: all .3s;
   position: relative;
   overflow: hidden;
 }
 
-.boton-home a {
+.home-layout .boton-home a {
   width: 100%;
   height: 100%;
   display: block;
@@ -12216,11 +12232,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   left: 0;
 }
 
-.boton-home a span {
+.home-layout .boton-home a span {
   display: none;
 }
 
-.boton-home .overlay {
+.home-layout .boton-home .overlay {
   color: #fff;
   width: 100%;
   height: 100%;
@@ -12228,30 +12244,210 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   justify-content: center;
   align-items: end;
   padding: 30px;
+  font-size: calc(1.425rem + 2.1vw);
   display: flex;
   position: absolute;
 }
 
-.boton-home .overlay p {
-  font-size: calc(1.525rem + 3.3vw);
-}
-
 @media (width >= 1200px) {
-  .boton-home .overlay p {
-    font-size: 4rem;
+  .home-layout .boton-home .overlay {
+    font-size: 3rem;
   }
 }
 
-.boton-home:hover {
+.home-layout .boton-home .overlay span {
+  position: relative;
+}
+
+.home-layout .boton-home .overlay span:after {
+  content: "";
+  width: 138px;
+  height: 12px;
+  -o-transition: ease .3s;
+  background: url("after-texto-boton-home.8382720b.webp") center / contain no-repeat;
+  transition: all .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.home-layout .boton-home:hover {
   transform: translate(0, -10px);
 }
 
-.boton-home-vinos {
+.home-layout .boton-home-vinos {
   background: url("bg-boton-home-vinos.e58943d3.webp") center / cover no-repeat;
 }
 
-.boton-home-postres {
+.home-layout .boton-home-postres {
   background: url("bg-boton-home-postres.466c689b.webp") center / cover no-repeat;
+}
+
+.catalogo-vinos-layout {
+  color: #efd5b9;
+  background: #000 url("bg-interna.60260896.webp") center / cover no-repeat;
+}
+
+.catalogo-vinos-layout a {
+  color: #fff;
+}
+
+.catalogo-vinos-layout a:hover, .catalogo-vinos-layout .active, .catalogo-vinos-layout footer a {
+  color: #efd5b9;
+}
+
+.catalogo-vinos-layout footer a:hover {
+  color: #fff;
+}
+
+.catalogo-vinos-layout footer .logo {
+  filter: brightness(0) saturate() invert() sepia(22%) saturate(6375%) hue-rotate(296deg) brightness(117%) contrast(87%);
+}
+
+.catalogo-vinos-layout footer .logo:hover {
+  filter: brightness(0) saturate() invert() sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
+}
+
+.catalogo-vinos-layout .boton-catalogo {
+  width: 100%;
+  height: 120px;
+  width: 200px;
+  height: 200px;
+  -o-transition: ease .3s;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+}
+
+.catalogo-vinos-layout .boton-catalogo a {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.catalogo-vinos-layout .boton-catalogo:hover {
+  transform: translate(0, -10px);
+}
+
+.catalogo-vinos-layout .boton-catalogo-tinto {
+  color: #efd5b9;
+  background-color: #6f171b;
+}
+
+.catalogo-vinos-layout .boton-catalogo-tinto a, .catalogo-vinos-layout .boton-catalogo-tinto a:hover {
+  color: #efd5b9;
+}
+
+.catalogo-vinos-layout .boton-catalogo-rosado {
+  color: #6f171b;
+  background-color: #f6838b;
+}
+
+.catalogo-vinos-layout .boton-catalogo-rosado a, .catalogo-vinos-layout .boton-catalogo-rosado a:hover {
+  color: #6f171b;
+}
+
+.catalogo-vinos-layout .boton-catalogo-blanco {
+  color: #6f171b;
+  background-color: #efd5b9;
+}
+
+.catalogo-vinos-layout .boton-catalogo-blanco a, .catalogo-vinos-layout .boton-catalogo-blanco a:hover {
+  color: #6f171b;
+}
+
+.carrusel-layout {
+  color: #efd5b9;
+  background: #000 url("bg-interna.60260896.webp") center / cover no-repeat;
+}
+
+.carrusel-layout a {
+  color: #fff;
+}
+
+.carrusel-layout a:hover, .carrusel-layout .active, .carrusel-layout footer a {
+  color: #efd5b9;
+}
+
+.carrusel-layout footer a:hover {
+  color: #fff;
+}
+
+.carrusel-layout footer .logo {
+  filter: brightness(0) saturate() invert() sepia(22%) saturate(6375%) hue-rotate(296deg) brightness(117%) contrast(87%);
+}
+
+.carrusel-layout footer .logo:hover {
+  filter: brightness(0) saturate() invert() sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
+}
+
+.especificaciones-vinos-layout {
+  color: #efd5b9;
+  background: #6f171b url("bg-interna.60260896.webp") center / cover no-repeat;
+}
+
+.especificaciones-vinos-layout a {
+  color: #fff;
+}
+
+.especificaciones-vinos-layout a:hover, .especificaciones-vinos-layout .active, .especificaciones-vinos-layout footer a {
+  color: #efd5b9;
+}
+
+.especificaciones-vinos-layout footer a:hover {
+  color: #fff;
+}
+
+.especificaciones-vinos-layout footer .logo {
+  filter: brightness(0) saturate() invert() sepia(22%) saturate(6375%) hue-rotate(296deg) brightness(117%) contrast(87%);
+}
+
+.especificaciones-vinos-layout footer .logo:hover {
+  filter: brightness(0) saturate() invert() sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
+}
+
+.no-page-layout {
+  color: #efd5b9;
+  background: #000 url("bg-interna.60260896.webp") center / cover no-repeat;
+}
+
+.no-page-layout a {
+  color: #fff;
+}
+
+.no-page-layout a:hover, .no-page-layout .active, .no-page-layout footer a {
+  color: #efd5b9;
+}
+
+.no-page-layout footer a:hover {
+  color: #fff;
+}
+
+.no-page-layout footer .logo {
+  filter: brightness(0) saturate() invert() sepia(22%) saturate(6375%) hue-rotate(296deg) brightness(117%) contrast(87%);
+}
+
+.no-page-layout footer .logo:hover {
+  filter: brightness(0) saturate() invert() sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
+}
+
+@media only screen and (orientation: portrait) {
+  body {
+    opacity: 0;
+  }
+}
+
+@media (width >= 992px) {
+  .home-layout .boton-home .overlay span:after {
+    width: 158px;
+    height: 14px;
+  }
 }
 
 @font-face {

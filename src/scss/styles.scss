@@ -2,8 +2,14 @@
 @import "~bootstrap/scss/bootstrap";
 
 // Import needed SCSS modules
-@import "fonts.scss";
-@import "mixins.scss";
-@import "media-queries.scss";
-@import "swiperjs";
-@import "main.scss";
+@import "SwiperJS";
+@import "Colors";
+@import "Fonts";
+@import "Mixins";
+@import "Main";
+@import "Home";
+@import "CatalogoVinos";
+@import "CarruselLayout";
+@import "EspecificacionesVinos";
+@import "NoPage";
+@import "MediaQueries";

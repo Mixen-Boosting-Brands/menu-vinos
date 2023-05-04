@@ -15,12 +15,12 @@ const Layout = () => {
                         </NavLink>
                     </li>
                     <li className="list-inline-item">
-                        <NavLink to="/Vinos">
+                        <NavLink to="/catalogo">
                             <FontAwesomeIcon icon={faWineBottle} /> Vinos
                         </NavLink>
                     </li>
                     <li className="list-inline-item">
-                        <NavLink to="/Postres">
+                        <NavLink to="/postres">
                             <FontAwesomeIcon icon={faIceCream} /> Postres
                         </NavLink>
                     </li>
@@ -33,7 +33,7 @@ const Layout = () => {
 
             <footer>
                 <Link to="/">
-                    <h1>Agave</h1>
+                    <div className="logo"></div>
                 </Link>
             </footer>
         </>
