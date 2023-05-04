@@ -23,6 +23,7 @@ const CarruselPostres = () => {
             document.body.classList.remove('carrusel-layout')
         }
     }, [])
+    
     return (
         <div className="row">
             <div className="col-12 overflow-hidden">
@@ -39,7 +40,7 @@ const CarruselPostres = () => {
                         Postres.map((postre, i) => {
                             return (
                                 <SwiperSlide key={i}>
-                                    <Link to="/Postres">
+                                    <Link to="/postres">
                                         <img src={Thumbs[i + 1]} alt="" className="img-fluid" />
                                     </Link>
                                 </SwiperSlide>

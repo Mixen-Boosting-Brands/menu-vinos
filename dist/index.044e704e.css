@@ -12387,16 +12387,24 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   filter: brightness(0) saturate() invert() sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
 }
 
+:root {
+  --bs-border-color: $ crema;
+}
+
 .especificaciones-vinos-layout {
   color: #efd5b9;
   background: #6f171b url("bg-interna.60260896.webp") center / cover no-repeat;
 }
 
 .especificaciones-vinos-layout a {
+  color: #efd5b9;
+}
+
+.especificaciones-vinos-layout a:hover {
   color: #fff;
 }
 
-.especificaciones-vinos-layout a:hover, .especificaciones-vinos-layout .active, .especificaciones-vinos-layout footer a {
+.especificaciones-vinos-layout .active, .especificaciones-vinos-layout footer a {
   color: #efd5b9;
 }
 
@@ -12410,6 +12418,36 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .especificaciones-vinos-layout footer .logo:hover {
   filter: brightness(0) saturate() invert() sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
+}
+
+.especificaciones-vinos-layout .thumbnail-vino {
+  height: 64vh;
+}
+
+.especificaciones-vinos-layout table {
+  color: #efd5b9;
+}
+
+.especificaciones-vinos-layout table .icono {
+  width: 43px;
+  height: 33px;
+  background: url("sprite-especificaciones-vinos.f4cc33b3.webp") center / cover no-repeat;
+}
+
+.especificaciones-vinos-layout table .icono-uva {
+  background-position: 0 0;
+}
+
+.especificaciones-vinos-layout table .icono-region {
+  background-position: 0 -45px;
+}
+
+.especificaciones-vinos-layout table .icono-maridaje {
+  background-position: 0 -91px;
+}
+
+.especificaciones-vinos-layout table .icono-precio-por-botella, .especificaciones-vinos-layout table .icono-precio-por-copa {
+  background-position: 0 0;
 }
 
 .no-page-layout {

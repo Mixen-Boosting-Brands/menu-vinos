@@ -38,6 +38,7 @@ const CarruselVinos = () => {
             document.body.classList.remove('carrusel-layout')
         }
     }, [location])
+
     switch (location.pathname) {
         case "/tinto":
             return (
@@ -54,10 +55,31 @@ const CarruselVinos = () => {
                         >
                             {
                                 DataTinto.map((vino, i) => {
+                                    let nombre = DataTinto[i].nombre;
+                                        uva = DataTinto[i].uva;
+                                        region = DataTinto[i].region;
+                                        maridaje = DataTinto[i].maridaje;
+                                        precioPorBotella = DataTinto[i].precioPorBotella;
+                                        precioPorCopa = DataTinto[i].precioPorCopa;
+                                        thumbnail = ThumbsTinto[i + 1];
+
                                     return (
                                         <SwiperSlide key={i}>
-                                            <Link to="/especificaciones">
-                                                <img src={ThumbsTinto[i + 1]} alt="" className="img-fluid" />
+                                            <Link 
+                                                to="/especificaciones"
+                                                state={
+                                                    [
+                                                        nombre,
+                                                        uva,
+                                                        region,
+                                                        maridaje,
+                                                        precioPorBotella,
+                                                        precioPorCopa,
+                                                        thumbnail
+                                                    ]
+                                                }
+                                            >
+                                                <img src={thumbnail} alt="" className="img-fluid" />
                                             </Link>
                                         </SwiperSlide>
                                     );
@@ -83,10 +105,31 @@ const CarruselVinos = () => {
                         >
                             {
                                 DataRosado.map((vino, i) => {
+                                    let nombre = DataTinto[i].nombre;
+                                        uva = DataTinto[i].uva;
+                                        region = DataTinto[i].region;
+                                        maridaje = DataTinto[i].maridaje;
+                                        precioPorBotella = DataTinto[i].precioPorBotella;
+                                        precioPorCopa = DataTinto[i].precioPorCopa;
+                                        thumbnail = ThumbsTinto[i + 1];
+
                                     return (
                                         <SwiperSlide key={i}>
-                                            <Link to="/especificaciones">
-                                                <img src={ThumbsRosado[i + 1]} alt="" className="img-fluid" />
+                                            <Link
+                                                to="/especificaciones"
+                                                state={
+                                                    [
+                                                        nombre,
+                                                        uva,
+                                                        region,
+                                                        maridaje,
+                                                        precioPorBotella,
+                                                        precioPorCopa,
+                                                        thumbnail
+                                                    ]
+                                                }
+                                            >
+                                                <img src={thumbnail} alt="" className="img-fluid" />
                                             </Link>
                                         </SwiperSlide>
                                     );
@@ -112,10 +155,31 @@ const CarruselVinos = () => {
                         >
                             {
                                 DataBlanco.map((vino, i) => {
+                                    let nombre = DataTinto[i].nombre;
+                                        uva = DataTinto[i].uva;
+                                        region = DataTinto[i].region;
+                                        maridaje = DataTinto[i].maridaje;
+                                        precioPorBotella = DataTinto[i].precioPorBotella;
+                                        precioPorCopa = DataTinto[i].precioPorCopa;
+                                        thumbnail = ThumbsTinto[i + 1];
+
                                     return (
                                         <SwiperSlide key={i}>
-                                            <Link to="/especificaciones">
-                                                <img src={ThumbsBlanco[i + 1]} alt="" className="img-fluid" />
+                                            <Link
+                                                to="/especificaciones"
+                                                state={
+                                                    [
+                                                        nombre,
+                                                        uva,
+                                                        region,
+                                                        maridaje,
+                                                        precioPorBotella,
+                                                        precioPorCopa,
+                                                        thumbnail
+                                                    ]
+                                                }
+                                            >
+                                                <img src={thumbnail} alt="" className="img-fluid" />
                                             </Link>
                                         </SwiperSlide>
                                     );

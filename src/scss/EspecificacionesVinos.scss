@@ -1,13 +1,17 @@
+:root {
+    --bs-border-color: $crema;
+}
+
 .especificaciones-vinos-layout {
     @include background('../images/bg-interna.webp', center, cover);
     background-color: $guinda;
     color: $crema;
 
     a {
-        color: $blanco;
+        color: $crema;
 
         &:hover {
-            color: $crema;
+            color: $blanco;
         }
     }
 
@@ -33,7 +37,37 @@
         }
     }
 
-    table {
+    .thumbnail-vino {
+        height: 64vh;
+    }
 
+    table {
+        color: $crema;
+
+        .icono {
+            @include background('../images/sprite-especificaciones-vinos.webp', center, cover);
+            width: 43px;
+            height: 33px;
+        }
+
+        .icono-uva {
+            background-position: 0 0;
+        }
+
+        .icono-region {
+            background-position: 0 -45px;
+        }
+
+        .icono-maridaje {
+            background-position: 0 -91px;
+        }
+
+        .icono-precio-por-botella {
+            background-position: 0 0;
+        }
+
+        .icono-precio-por-copa {
+            background-position: 0 0;
+        }
     }
 }

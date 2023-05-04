@@ -58290,42 +58290,58 @@ const CarruselVinos = ()=>{
                         ],
                         className: "carrusel",
                         children: (0, _tintoJsonDefault.default).map((vino, i)=>{
+                            let nombre = (0, _tintoJsonDefault.default)[i].nombre;
+                            uva = (0, _tintoJsonDefault.default)[i].uva;
+                            region = (0, _tintoJsonDefault.default)[i].region;
+                            maridaje = (0, _tintoJsonDefault.default)[i].maridaje;
+                            precioPorBotella = (0, _tintoJsonDefault.default)[i].precioPorBotella;
+                            precioPorCopa = (0, _tintoJsonDefault.default)[i].precioPorCopa;
+                            thumbnail = _thumbVinoPng[i + 1];
                             return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                     to: "/especificaciones",
+                                    state: [
+                                        nombre,
+                                        uva,
+                                        region,
+                                        maridaje,
+                                        precioPorBotella,
+                                        precioPorCopa,
+                                        thumbnail
+                                    ],
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: _thumbVinoPng[i + 1],
+                                        src: thumbnail,
                                         alt: "",
                                         className: "img-fluid"
                                     }, void 0, false, {
                                         fileName: "src/pages/Vinos.js",
-                                        lineNumber: 60,
+                                        lineNumber: 82,
                                         columnNumber: 49
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/pages/Vinos.js",
-                                    lineNumber: 59,
+                                    lineNumber: 68,
                                     columnNumber: 45
                                 }, undefined)
                             }, i, false, {
                                 fileName: "src/pages/Vinos.js",
-                                lineNumber: 58,
+                                lineNumber: 67,
                                 columnNumber: 41
                             }, undefined);
                         })
                     }, void 0, false, {
                         fileName: "src/pages/Vinos.js",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 25
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/pages/Vinos.js",
-                    lineNumber: 45,
+                    lineNumber: 46,
                     columnNumber: 21
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/pages/Vinos.js",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 17
             }, undefined);
         case "/rosado":
@@ -58344,42 +58360,58 @@ const CarruselVinos = ()=>{
                         ],
                         className: "carrusel",
                         children: (0, _rosadoJsonDefault.default).map((vino, i)=>{
+                            let nombre = (0, _tintoJsonDefault.default)[i].nombre;
+                            uva = (0, _tintoJsonDefault.default)[i].uva;
+                            region = (0, _tintoJsonDefault.default)[i].region;
+                            maridaje = (0, _tintoJsonDefault.default)[i].maridaje;
+                            precioPorBotella = (0, _tintoJsonDefault.default)[i].precioPorBotella;
+                            precioPorCopa = (0, _tintoJsonDefault.default)[i].precioPorCopa;
+                            thumbnail = _thumbVinoPng[i + 1];
                             return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                     to: "/especificaciones",
+                                    state: [
+                                        nombre,
+                                        uva,
+                                        region,
+                                        maridaje,
+                                        precioPorBotella,
+                                        precioPorCopa,
+                                        thumbnail
+                                    ],
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: _thumbVinoPng1[i + 1],
+                                        src: thumbnail,
                                         alt: "",
                                         className: "img-fluid"
                                     }, void 0, false, {
                                         fileName: "src/pages/Vinos.js",
-                                        lineNumber: 89,
+                                        lineNumber: 132,
                                         columnNumber: 49
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/pages/Vinos.js",
-                                    lineNumber: 88,
+                                    lineNumber: 118,
                                     columnNumber: 45
                                 }, undefined)
                             }, i, false, {
                                 fileName: "src/pages/Vinos.js",
-                                lineNumber: 87,
+                                lineNumber: 117,
                                 columnNumber: 41
                             }, undefined);
                         })
                     }, void 0, false, {
                         fileName: "src/pages/Vinos.js",
-                        lineNumber: 75,
+                        lineNumber: 97,
                         columnNumber: 25
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/pages/Vinos.js",
-                    lineNumber: 74,
+                    lineNumber: 96,
                     columnNumber: 21
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/pages/Vinos.js",
-                lineNumber: 73,
+                lineNumber: 95,
                 columnNumber: 17
             }, undefined);
         case "/blanco":
@@ -58398,42 +58430,58 @@ const CarruselVinos = ()=>{
                         ],
                         className: "carrusel",
                         children: (0, _blancoJsonDefault.default).map((vino, i)=>{
+                            let nombre = (0, _tintoJsonDefault.default)[i].nombre;
+                            uva = (0, _tintoJsonDefault.default)[i].uva;
+                            region = (0, _tintoJsonDefault.default)[i].region;
+                            maridaje = (0, _tintoJsonDefault.default)[i].maridaje;
+                            precioPorBotella = (0, _tintoJsonDefault.default)[i].precioPorBotella;
+                            precioPorCopa = (0, _tintoJsonDefault.default)[i].precioPorCopa;
+                            thumbnail = _thumbVinoPng[i + 1];
                             return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                     to: "/especificaciones",
+                                    state: [
+                                        nombre,
+                                        uva,
+                                        region,
+                                        maridaje,
+                                        precioPorBotella,
+                                        precioPorCopa,
+                                        thumbnail
+                                    ],
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: _thumbVinoPng2[i + 1],
+                                        src: thumbnail,
                                         alt: "",
                                         className: "img-fluid"
                                     }, void 0, false, {
                                         fileName: "src/pages/Vinos.js",
-                                        lineNumber: 118,
+                                        lineNumber: 182,
                                         columnNumber: 49
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/pages/Vinos.js",
-                                    lineNumber: 117,
+                                    lineNumber: 168,
                                     columnNumber: 45
                                 }, undefined)
                             }, i, false, {
                                 fileName: "src/pages/Vinos.js",
-                                lineNumber: 116,
+                                lineNumber: 167,
                                 columnNumber: 41
                             }, undefined);
                         })
                     }, void 0, false, {
                         fileName: "src/pages/Vinos.js",
-                        lineNumber: 104,
+                        lineNumber: 147,
                         columnNumber: 25
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/pages/Vinos.js",
-                    lineNumber: 103,
+                    lineNumber: 146,
                     columnNumber: 21
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/pages/Vinos.js",
-                lineNumber: 102,
+                lineNumber: 145,
                 columnNumber: 17
             }, undefined);
         default:
@@ -58446,14 +58494,14 @@ const CarruselVinos = ()=>{
                             children: "Error"
                         }, void 0, false, {
                             fileName: "src/pages/Vinos.js",
-                            lineNumber: 133,
+                            lineNumber: 197,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Error al cargar la informaci\xf3n."
                         }, void 0, false, {
                             fileName: "src/pages/Vinos.js",
-                            lineNumber: 134,
+                            lineNumber: 198,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -58463,25 +58511,25 @@ const CarruselVinos = ()=>{
                                     icon: (0, _freeSolidSvgIcons.faHouse)
                                 }, void 0, false, {
                                     fileName: "src/pages/Vinos.js",
-                                    lineNumber: 138,
+                                    lineNumber: 202,
                                     columnNumber: 29
                                 }, undefined),
                                 " Home"
                             ]
                         }, void 0, true, {
                             fileName: "src/pages/Vinos.js",
-                            lineNumber: 137,
+                            lineNumber: 201,
                             columnNumber: 25
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/Vinos.js",
-                    lineNumber: 132,
+                    lineNumber: 196,
                     columnNumber: 21
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/pages/Vinos.js",
-                lineNumber: 131,
+                lineNumber: 195,
                 columnNumber: 17
             }, undefined);
     }
@@ -67269,13 +67317,13 @@ const SwiperSlide = /*#__PURE__*/ (0, _react.forwardRef)(function(_temp, externa
 SwiperSlide.displayName = "SwiperSlide";
 
 },{"react":"21dqq","../components-shared/utils.js":"aajxi","./use-isomorphic-layout-effect.js":"fpyc0","./context.js":"30Q74","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eFTGe":[function() {},{}],"f26n8":[function() {},{}],"9D7cm":[function(require,module,exports) {
-module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":11,"nombre":"Mar\xeda Tinto","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":12,"nombre":"M de Mar\xeda Tinto","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"}]');
+module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":11,"nombre":"Mar\xeda Tinto","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":12,"nombre":"M de Mar\xeda Tinto","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/tinto/thumb-vino-1.png"}]');
 
 },{}],"jmYy0":[function(require,module,exports) {
-module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":11,"nombre":"Mar\xeda Tinto","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":12,"nombre":"M de Mar\xeda Tinto","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"}]');
+module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":11,"nombre":"Mar\xeda Rosado","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":12,"nombre":"M de Mar\xeda Rosado","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/rosado/thumb-vino-1.png"}]');
 
 },{}],"5WJcd":[function(require,module,exports) {
-module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-"},{"id":11,"nombre":"Mar\xeda Tinto","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-"},{"id":12,"nombre":"M de Mar\xeda Tinto","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00"}]');
+module.exports = JSON.parse('[{"id":1,"nombre":"Cavall 3","uva":"Shiraz","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":2,"nombre":"Cavall 5","uva":"Cabernet Sauvignon, merlot y malbec","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pollo, cerdo","precioPorBotella":"$950.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":3,"nombre":"Cavall 7","uva":"Cabernet Sauvignon, merlot, malbec, cabernet franc y petit verdot","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Cortes de carne calidad prime","precioPorBotella":"$3,200.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":4,"nombre":"Monte Xanix Grand Ricardo","uva":"Cabernet Sauvignon, merlot, petit verdot","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Comida con mucha intensidad, cortes, cordero, quesos maduros, mole, cabrito","precioPorBotella":"$3,400.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":5,"nombre":"\xdanico Santo Tom\xe1s","uva":"Cabernet Sauvignon y merlot","region":"Bodegas Santo Tom\xe1s, Ensenada, Baja California, M\xe9xico","maridaje":"Carnes Rojas, quesos maduros, pastas","precioPorBotella":"$3,250.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":6,"nombre":"La Casona","uva":"Cabernet Sauvignon, merlot","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, quesos maduros, pastas","precioPorBotella":"$980.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":7,"nombre":"Megacero","uva":"Merlot, shiraz, syrah, cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, puerco, quesos maduros","precioPorBotella":"$1,300.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":8,"nombre":"Angelin","uva":"Cabernet Sauvignon","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas, tacos agave,tacos gobernador, quesos fundidos","precioPorBotella":"$900.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":9,"nombre":"Asis","uva":"Merlot - shiraz","region":"Hacienda Encinillas, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$1,100.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":10,"nombre":"5 de Pinesque","uva":"Syrah, Cabernet Sauvignon. Notas de cereza negra, canela y madera tostada","region":"Bodegas Pinesque, Chihuahua, Chihuahua","maridaje":"Carnes rojas, quesos maduros, pastas con salsa bolo\xf1esa","precioPorBotella":"$900.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":11,"nombre":"Mar\xeda Blanco","uva":"Tempranillo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, quesos manchegos","precioPorBotella":"$1,300.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":12,"nombre":"M de Mar\xeda Blanco","uva":"Cabernet Sauvignon, Tempranillo, syrah","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, cerdo, pollo, pastas","precioPorBotella":"$1,900.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":13,"nombre":"Madero 3V","uva":"Cabernet Sauvignon, merlot, tempranillo","region":"Parras, Coahuila, M\xe9xico","maridaje":"Jamon serrano, carnes frias, cortes marmoleados, tacos de res, tuetanos, pastel de chocolate","precioPorBotella":"$1,100.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":14,"nombre":"La Cetto Nebbiolo","uva":"Nebbiolo","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Carnes rojas, pollo, cerdo","precioPorBotella":"$660.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":15,"nombre":"Bar\xf3n Balche","uva":"Malbec, Cabernet Sauvignon, Grenache","region":"Valle de Guadalupe, M\xe9xico. Ensenada, Baja California","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$750.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":16,"nombre":"Cune Crianza Rioja","uva":"Tempranillo","region":"Rioja, Espa\xf1a","maridaje":"Carnes rojas, cerdo, pollo","precioPorBotella":"$990.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":17,"nombre":"Marqu\xe9s de Caceres","uva":"Tempranillo, garnacha, graciano","region":"Bodegas Rioja, Espa\xf1a","maridaje":"Carne roja, carne seca, postres con chocolate","precioPorBotella":"$800.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":18,"nombre":"Riunite Lambrusco","uva":"Lambrusco","region":"Emilia Romagna, Italia","maridaje":"Todo tipo de alimentos","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":19,"nombre":"Sangre de Toro Reserva","uva":"Garnacha y Cari\xf1ena","region":"Espa\xf1a","maridaje":"Carnes rojas","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":20,"nombre":"Casillero del Diablo Reserva Privada","uva":"Cabernet Sauvignon","region":"Valle del Maipo, Chile","maridaje":"Carnes rojas , tacos de filete de res","precioPorBotella":"$650.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":21,"nombre":"Concha y Toro Reservado Merlot","uva":"Merlot","region":"Valle Central, Chile","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":22,"nombre":"Concha y Toro Reservado Cabernet Sauvignon","uva":"Cabernet Sauvignon","region":"Valle Central, Chile","maridaje":"Carnes rojas","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":23,"nombre":"Las Moras Malbec","uva":"Malbec","region":"Argentina","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":24,"nombre":"Cavall Rose","uva":"Zinfandel","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$500.00","precioPorCopa":"-","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":25,"nombre":"Zinfandel La Cetto","uva":"Zinfandel","region":"Valle de Guadalupe, M\xe9xico","maridaje":"Mariscos, aves y pescados","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"},{"id":26,"nombre":"Blanc de Blancs La Cetto","uva":"La Cetto Blanc de Blancs","region":"Cd. Delicias, Chihuahua, M\xe9xico","maridaje":"Carnes rojas y quesos maduros","precioPorBotella":"$450.00","precioPorCopa":"$120.00","thumbnail":"./images/vinos/blanco/thumb-vino-1.png"}]');
 
 },{}],"crN2S":[function(require,module,exports) {
 const _temp0 = require("e102d342376ed7f2");
@@ -67493,40 +67541,40 @@ const CarruselPostres = ()=>{
                 children: (0, _postresJsonDefault.default).map((postre, i)=>{
                     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.SwiperSlide), {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/Postres",
+                            to: "/postres",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 src: _thumbPostrePng[i + 1],
                                 alt: "",
                                 className: "img-fluid"
                             }, void 0, false, {
                                 fileName: "src/pages/Postres.js",
-                                lineNumber: 43,
+                                lineNumber: 44,
                                 columnNumber: 41
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/Postres.js",
-                            lineNumber: 42,
+                            lineNumber: 43,
                             columnNumber: 37
                         }, undefined)
                     }, i, false, {
                         fileName: "src/pages/Postres.js",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 33
                     }, undefined);
                 })
             }, void 0, false, {
                 fileName: "src/pages/Postres.js",
-                lineNumber: 29,
+                lineNumber: 30,
                 columnNumber: 17
             }, undefined)
         }, void 0, false, {
             fileName: "src/pages/Postres.js",
-            lineNumber: 28,
+            lineNumber: 29,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/pages/Postres.js",
-        lineNumber: 27,
+        lineNumber: 28,
         columnNumber: 9
     }, undefined);
 };
@@ -67600,14 +67648,14 @@ const NoPage = ()=>{
                     children: "Error"
                 }, void 0, false, {
                     fileName: "src/pages/NoPage.js",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "Error al cargar la informaci\xf3n."
                 }, void 0, false, {
                     fileName: "src/pages/NoPage.js",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -67617,25 +67665,25 @@ const NoPage = ()=>{
                             icon: (0, _freeSolidSvgIcons.faHouse)
                         }, void 0, false, {
                             fileName: "src/pages/NoPage.js",
-                            lineNumber: 22,
+                            lineNumber: 23,
                             columnNumber: 21
                         }, undefined),
                         " Home"
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/NoPage.js",
-                    lineNumber: 21,
+                    lineNumber: 22,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/pages/NoPage.js",
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/pages/NoPage.js",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 9
     }, undefined);
 };
@@ -67663,8 +67711,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
-// Import CatalogoVinos data
-// import CatalogoVinos from '../data/catalogovinos.json';
 const CatalogoVinos = ()=>{
     _s();
     (0, _react.useEffect)(()=>{
@@ -67690,27 +67736,27 @@ const CatalogoVinos = ()=>{
                                     children: "Tinto"
                                 }, void 0, false, {
                                     fileName: "src/pages/CatalogoVinos.js",
-                                    lineNumber: 21,
+                                    lineNumber: 19,
                                     columnNumber: 33
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/pages/CatalogoVinos.js",
-                                lineNumber: 20,
+                                lineNumber: 18,
                                 columnNumber: 29
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/CatalogoVinos.js",
-                            lineNumber: 19,
+                            lineNumber: 17,
                             columnNumber: 25
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/pages/CatalogoVinos.js",
-                        lineNumber: 18,
+                        lineNumber: 16,
                         columnNumber: 21
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/pages/CatalogoVinos.js",
-                    lineNumber: 17,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -67726,22 +67772,22 @@ const CatalogoVinos = ()=>{
                                         children: "Rosado"
                                     }, void 0, false, {
                                         fileName: "src/pages/CatalogoVinos.js",
-                                        lineNumber: 30,
+                                        lineNumber: 28,
                                         columnNumber: 33
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/pages/CatalogoVinos.js",
-                                    lineNumber: 29,
+                                    lineNumber: 27,
                                     columnNumber: 29
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/pages/CatalogoVinos.js",
-                                lineNumber: 28,
+                                lineNumber: 26,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/CatalogoVinos.js",
-                            lineNumber: 27,
+                            lineNumber: 25,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -67754,39 +67800,39 @@ const CatalogoVinos = ()=>{
                                         children: "Blanco"
                                     }, void 0, false, {
                                         fileName: "src/pages/CatalogoVinos.js",
-                                        lineNumber: 37,
+                                        lineNumber: 35,
                                         columnNumber: 33
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/pages/CatalogoVinos.js",
-                                    lineNumber: 36,
+                                    lineNumber: 34,
                                     columnNumber: 29
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/pages/CatalogoVinos.js",
-                                lineNumber: 35,
+                                lineNumber: 33,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/CatalogoVinos.js",
-                            lineNumber: 34,
+                            lineNumber: 32,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/CatalogoVinos.js",
-                    lineNumber: 26,
+                    lineNumber: 24,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/pages/CatalogoVinos.js",
-            lineNumber: 16,
+            lineNumber: 14,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/pages/CatalogoVinos.js",
-        lineNumber: 15,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
@@ -67813,21 +67859,6 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactRouterDom = require("react-router-dom");
-// Import Vino Tinto data
-var _tintoJson = require("../data/tinto.json");
-var _tintoJsonDefault = parcelHelpers.interopDefault(_tintoJson);
-// Import Vino Rosado data
-var _rosadoJson = require("../data/rosado.json");
-var _rosadoJsonDefault = parcelHelpers.interopDefault(_rosadoJson);
-// Import Vino Blanco data
-var _blancoJson = require("../data/blanco.json");
-var _blancoJsonDefault = parcelHelpers.interopDefault(_blancoJson);
-// Import Vino Tinto thumbnails
-var _thumbVinoPng = require("../images/vinos/tinto/thumb-vino-*.png");
-// Import Vino Rosado thumbnails
-var _thumbVinoPng1 = require("../images/vinos/rosado/thumb-vino-*.png");
-// Import Vino Blanco thumbnails
-var _thumbVinoPng2 = require("../images/vinos/blanco/thumb-vino-*.png");
 var _s = $RefreshSig$();
 const EspecificacionesVinos = ()=>{
     _s();
@@ -67837,33 +67868,51 @@ const EspecificacionesVinos = ()=>{
             document.body.classList.remove("especificaciones-vinos-layout");
         };
     }, []);
+    const location = (0, _reactRouterDom.useLocation)();
+    nombre = location.state[0];
+    uva = location.state[1];
+    region = location.state[2];
+    maridaje = location.state[3];
+    precioPorBotella = location.state[4];
+    precioPorCopa = location.state[5];
+    thumbnail = location.state[6];
+    console.log(location);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "row",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "col-3 offset-2"
+                className: "col-3 offset-2 my-auto",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: thumbnail,
+                    alt: "",
+                    className: "thumbnail-vino img-fluid"
+                }, void 0, false, {
+                    fileName: "src/pages/EspecificacionesVinos.js",
+                    lineNumber: 25,
+                    columnNumber: 17
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/pages/EspecificacionesVinos.js",
-                lineNumber: 31,
+                lineNumber: 24,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "col-6",
+                className: "col-6 my-auto",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "row",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "col-12",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                children: "Nombre"
+                                children: nombre
                             }, void 0, false, {
                                 fileName: "src/pages/EspecificacionesVinos.js",
-                                lineNumber: 37,
+                                lineNumber: 30,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/EspecificacionesVinos.js",
-                            lineNumber: 36,
+                            lineNumber: 29,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -67871,52 +67920,34 @@ const EspecificacionesVinos = ()=>{
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "table-responsive",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                                    class: "table",
+                                    className: "table",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                        scope: "col",
-                                                        children: "#"
+                                                        scope: "col"
                                                     }, void 0, false, {
                                                         fileName: "src/pages/EspecificacionesVinos.js",
-                                                        lineNumber: 44,
+                                                        lineNumber: 37,
                                                         columnNumber: 41
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                        scope: "col",
-                                                        children: "First"
+                                                        scope: "col"
                                                     }, void 0, false, {
                                                         fileName: "src/pages/EspecificacionesVinos.js",
-                                                        lineNumber: 45,
-                                                        columnNumber: 41
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                        scope: "col",
-                                                        children: "Last"
-                                                    }, void 0, false, {
-                                                        fileName: "src/pages/EspecificacionesVinos.js",
-                                                        lineNumber: 46,
-                                                        columnNumber: 41
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                        scope: "col",
-                                                        children: "Handle"
-                                                    }, void 0, false, {
-                                                        fileName: "src/pages/EspecificacionesVinos.js",
-                                                        lineNumber: 47,
+                                                        lineNumber: 38,
                                                         columnNumber: 41
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/pages/EspecificacionesVinos.js",
-                                                lineNumber: 43,
+                                                lineNumber: 36,
                                                 columnNumber: 37
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/pages/EspecificacionesVinos.js",
-                                            lineNumber: 42,
+                                            lineNumber: 35,
                                             columnNumber: 33
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
@@ -67925,148 +67956,207 @@ const EspecificacionesVinos = ()=>{
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                                             scope: "row",
-                                                            children: "1"
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "icono icono-uva"
+                                                            }, void 0, false, {
+                                                                fileName: "src/pages/EspecificacionesVinos.js",
+                                                                lineNumber: 44,
+                                                                columnNumber: 45
+                                                            }, undefined)
                                                         }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 43,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: [
+                                                                "Uva: ",
+                                                                uva
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 46,
+                                                            columnNumber: 41
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/pages/EspecificacionesVinos.js",
+                                                    lineNumber: 42,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                            scope: "row",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "icono icono-region"
+                                                            }, void 0, false, {
+                                                                fileName: "src/pages/EspecificacionesVinos.js",
+                                                                lineNumber: 50,
+                                                                columnNumber: 45
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 49,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: [
+                                                                "Regi\xf3n: ",
+                                                                region
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "src/pages/EspecificacionesVinos.js",
                                                             lineNumber: 52,
                                                             columnNumber: 41
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            children: "Mark"
-                                                        }, void 0, false, {
-                                                            fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 53,
-                                                            columnNumber: 41
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            children: "Otto"
-                                                        }, void 0, false, {
-                                                            fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 54,
-                                                            columnNumber: 41
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            children: "@mdo"
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/pages/EspecificacionesVinos.js",
+                                                    lineNumber: 48,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                            scope: "row",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "icono icono-maridaje"
+                                                            }, void 0, false, {
+                                                                fileName: "src/pages/EspecificacionesVinos.js",
+                                                                lineNumber: 56,
+                                                                columnNumber: 45
+                                                            }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/pages/EspecificacionesVinos.js",
                                                             lineNumber: 55,
                                                             columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: [
+                                                                "Maridaje: ",
+                                                                maridaje
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 58,
+                                                            columnNumber: 41
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/pages/EspecificacionesVinos.js",
-                                                    lineNumber: 51,
+                                                    lineNumber: 54,
                                                     columnNumber: 37
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                                             scope: "row",
-                                                            children: "2"
-                                                        }, void 0, false, {
-                                                            fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 58,
-                                                            columnNumber: 41
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            children: "Jacob"
-                                                        }, void 0, false, {
-                                                            fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 59,
-                                                            columnNumber: 41
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            children: "Thornton"
-                                                        }, void 0, false, {
-                                                            fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 60,
-                                                            columnNumber: 41
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            children: "@fat"
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "icono icono-precio-por-botella"
+                                                            }, void 0, false, {
+                                                                fileName: "src/pages/EspecificacionesVinos.js",
+                                                                lineNumber: 62,
+                                                                columnNumber: 45
+                                                            }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/pages/EspecificacionesVinos.js",
                                                             lineNumber: 61,
                                                             columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: [
+                                                                "Precio por botella: ",
+                                                                precioPorBotella
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "src/pages/EspecificacionesVinos.js",
+                                                            lineNumber: 64,
+                                                            columnNumber: 41
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/pages/EspecificacionesVinos.js",
-                                                    lineNumber: 57,
+                                                    lineNumber: 60,
                                                     columnNumber: 37
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                                             scope: "row",
-                                                            children: "3"
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "icono icono-precio-por-copa"
+                                                            }, void 0, false, {
+                                                                fileName: "src/pages/EspecificacionesVinos.js",
+                                                                lineNumber: 68,
+                                                                columnNumber: 45
+                                                            }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 64,
+                                                            lineNumber: 67,
                                                             columnNumber: 41
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            colspan: "2",
-                                                            children: "Larry the Bird"
-                                                        }, void 0, false, {
+                                                            children: [
+                                                                "Precio por copa: ",
+                                                                precioPorCopa
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 65,
-                                                            columnNumber: 41
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                                            children: "@twitter"
-                                                        }, void 0, false, {
-                                                            fileName: "src/pages/EspecificacionesVinos.js",
-                                                            lineNumber: 66,
+                                                            lineNumber: 70,
                                                             columnNumber: 41
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/pages/EspecificacionesVinos.js",
-                                                    lineNumber: 63,
+                                                    lineNumber: 66,
                                                     columnNumber: 37
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/pages/EspecificacionesVinos.js",
-                                            lineNumber: 50,
+                                            lineNumber: 41,
                                             columnNumber: 33
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/pages/EspecificacionesVinos.js",
-                                    lineNumber: 41,
+                                    lineNumber: 34,
                                     columnNumber: 29
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/pages/EspecificacionesVinos.js",
-                                lineNumber: 40,
+                                lineNumber: 33,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/pages/EspecificacionesVinos.js",
-                            lineNumber: 39,
+                            lineNumber: 32,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/EspecificacionesVinos.js",
-                    lineNumber: 35,
+                    lineNumber: 28,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/pages/EspecificacionesVinos.js",
-                lineNumber: 34,
+                lineNumber: 27,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/EspecificacionesVinos.js",
-        lineNumber: 30,
+        lineNumber: 23,
         columnNumber: 9
     }, undefined);
 };
-_s(EspecificacionesVinos, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_s(EspecificacionesVinos, "o1BGGE68B5NhzkgX/n1YzImCIJg=", false, function() {
+    return [
+        (0, _reactRouterDom.useLocation)
+    ];
+});
 _c = EspecificacionesVinos;
 exports.default = EspecificacionesVinos;
 var _c;
@@ -68077,6 +68167,6 @@ $RefreshReg$(_c, "EspecificacionesVinos");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../data/tinto.json":"9D7cm","../data/rosado.json":"jmYy0","../data/blanco.json":"5WJcd","../images/vinos/tinto/thumb-vino-*.png":"crN2S","../images/vinos/rosado/thumb-vino-*.png":"9kBbE","../images/vinos/blanco/thumb-vino-*.png":"8tOHR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","6fRhY","8lRBv"], "8lRBv", "parcelRequiree3fa")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","6fRhY","8lRBv"], "8lRBv", "parcelRequiree3fa")
 
 //# sourceMappingURL=index.59a40e7a.js.map

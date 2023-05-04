@@ -1,9 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 
-// Import CatalogoVinos data
-// import CatalogoVinos from '../data/catalogovinos.json';
-
 const CatalogoVinos = () => {
     useEffect(() => {
         document.body.classList.add('catalogo-vinos-layout')
@@ -11,6 +8,7 @@ const CatalogoVinos = () => {
             document.body.classList.remove('catalogo-vinos-layout')
         }
     }, [])
+
     return (
         <div className="row">
             <div className="col-12">

@@ -1,23 +1,5 @@
 import { useEffect } from 'react';
-import { Link } from "react-router-dom";
-
-// Import Vino Tinto data
-import DataTinto from '../data/tinto.json';
-
-// Import Vino Rosado data
-import DataRosado from '../data/rosado.json';
-
-// Import Vino Blanco data
-import DataBlanco from '../data/blanco.json';
-
-// Import Vino Tinto thumbnails
-import * as ThumbsTinto from '../images/vinos/tinto/thumb-vino-*.png';
-
-// Import Vino Rosado thumbnails
-import * as ThumbsRosado from '../images/vinos/rosado/thumb-vino-*.png';
-
-// Import Vino Blanco thumbnails
-import * as ThumbsBlanco from '../images/vinos/blanco/thumb-vino-*.png';
+import { useLocation } from "react-router-dom";
 
 const EspecificacionesVinos = () => {
     useEffect(() => {
@@ -26,44 +8,66 @@ const EspecificacionesVinos = () => {
             document.body.classList.remove('especificaciones-vinos-layout')
         }
     }, [])
+
+    const location = useLocation();
+        nombre = location.state[0];
+        uva = location.state[1];
+        region = location.state[2];
+        maridaje = location.state[3];
+        precioPorBotella = location.state[4];
+        precioPorCopa = location.state[5];
+        thumbnail = location.state[6];
+        console.log(location);
+
     return (
         <div className="row">
-            <div className="col-3 offset-2">
-                
+            <div className="col-3 offset-2 my-auto">
+                <img src={thumbnail} alt="" className="thumbnail-vino img-fluid" />
             </div>
-            <div className="col-6">
+            <div className="col-6 my-auto">
                 <div className="row">
                     <div className="col-12">
-                        <h1>Nombre</h1>
+                        <h1>{nombre}</h1>
                     </div>
                     <div className="col-12">
                         <div className="table-responsive">
-                            <table class="table">
+                            <table className="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <th scope="row">
+                                            <div className="icono icono-uva"></div>
+                                        </th>
+                                        <td>Uva: {uva}</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <th scope="row">
+                                            <div className="icono icono-region"></div>
+                                        </th>
+                                        <td>Región: {region}</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">3</th>
-                                        <td colspan="2">Larry the Bird</td>
-                                        <td>@twitter</td>
+                                        <th scope="row">
+                                            <div className="icono icono-maridaje"></div>
+                                        </th>
+                                        <td>Maridaje: {maridaje}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div className="icono icono-precio-por-botella"></div>
+                                        </th>
+                                        <td>Precio por botella: {precioPorBotella}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div className="icono icono-precio-por-copa"></div>
+                                        </th>
+                                        <td>Precio por copa: {precioPorCopa}</td>
                                     </tr>
                                 </tbody>
                             </table>

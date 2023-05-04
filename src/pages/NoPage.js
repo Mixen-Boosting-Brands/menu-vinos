@@ -11,6 +11,7 @@ const NoPage = () => {
             document.body.classList.remove('no-page-layout')
         }
     }, [])
+    
     return (
         <div className="row">
             <div className="col-12 text-center">
