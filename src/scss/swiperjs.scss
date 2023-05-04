@@ -1,0 +1,51 @@
+:root {
+    --swiper-theme-color: white;
+    --swiper-pagination-bullet-inactive-color: white;
+    --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+.swiper {
+    width: 100%;
+    height: 64vh;
+    margin-top: 60px;
+    overflow: visible !important;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 64vh;
+    }
+
+    a {
+        width: 100%;
+        float: left;
+    }
+}
+
+.swiper-pagination {
+    top: -60px !important;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .swiper-pagination-bullet-active {
+        @include transition(ease, 0.3s);
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: white;
+        width: 15px;
+        height: 15px;
+    }
+}

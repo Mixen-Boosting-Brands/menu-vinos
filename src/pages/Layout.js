@@ -1,4 +1,8 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faWineBottle } from '@fortawesome/free-solid-svg-icons';
+import { faIceCream } from '@fortawesome/free-solid-svg-icons';
 
 const Layout = () => {
     return (
@@ -6,20 +10,32 @@ const Layout = () => {
             <nav>
                 <ul className="list-inline">
                     <li className="list-inline-item">
-                        <Link to="/">Inicio</Link>
+                        <NavLink to="/">
+                            <FontAwesomeIcon icon={faHouse} /> Inicio
+                        </NavLink>
                     </li>
                     <li className="list-inline-item">
-                        <Link to="/Vinos">Vinos</Link>
+                        <NavLink to="/Vinos">
+                            <FontAwesomeIcon icon={faWineBottle} /> Vinos
+                        </NavLink>
                     </li>
                     <li className="list-inline-item">
-                        <Link to="/Postres">Postres</Link>
+                        <NavLink to="/Postres">
+                            <FontAwesomeIcon icon={faIceCream} /> Postres
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
 
-            <div className="container">
+            <section className="container">
                 <Outlet />
-            </div>
+            </section>
+
+            <footer>
+                <Link to="/">
+                    <h1>Agave</h1>
+                </Link>
+            </footer>
         </>
     )
 };

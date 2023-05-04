@@ -1,0 +1,23 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Pastel Luxury Ice Cream",
+        "precio": "$295.00"
+    },
+    {
+        "id": 2,
+        "nombre": "Flan Napolitano",
+        "precio": "$125.00"
+    },
+    {
+        "id": 3,
+        "nombre": "Pay de Guayaba",
+        "precio": "$125.00"
+    },
+    {
+        "id": 4,
+        "nombre": "Pan de Elote c/ nieve y baileys",
+        "precio": "$215.00"
+    }
+]
