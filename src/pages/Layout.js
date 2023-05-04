@@ -11,7 +11,7 @@ const Layout = () => {
                 <ul className="list-inline">
                     <li className="list-inline-item">
                         <NavLink to="/">
-                            <FontAwesomeIcon icon={faHouse} /> Inicio
+                            <FontAwesomeIcon icon={faHouse} /> Home
                         </NavLink>
                     </li>
                     <li className="list-inline-item">

@@ -32591,7 +32591,7 @@ const Layout = ()=>{
                                         lineNumber: 14,
                                         columnNumber: 29
                                     }, undefined),
-                                    " Inicio"
+                                    " Home"
                                 ]
                             }, void 0, true, {
                                 fileName: "src/pages/Layout.js",
