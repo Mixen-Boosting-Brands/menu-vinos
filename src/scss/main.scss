@@ -110,3 +110,9 @@ h5,
 h6 {
     font-family: 'colusregular', serif;
 }
+
+.boton-regresar {
+    &:hover {
+        cursor: pointer;
+    }
+}

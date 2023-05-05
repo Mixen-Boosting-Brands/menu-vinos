@@ -10,7 +10,7 @@ import NoPage from "../pages/NoPage";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='vinosypostres'>
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />

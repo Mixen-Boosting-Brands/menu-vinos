@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
+import { faLeftLong } from '@fortawesome/free-solid-svg-icons';
 
 const EspecificacionesVinos = () => {
     useEffect(() => {
@@ -12,14 +13,15 @@ const EspecificacionesVinos = () => {
     }, [])
 
     const location = useLocation();
-        nombre = location.state[0];
-        uva = location.state[1];
-        region = location.state[2];
-        maridaje = location.state[3];
-        precioPorBotella = location.state[4];
-        precioPorCopa = location.state[5];
-        thumbnail = location.state[6];
-        console.log(location);
+    const nombre = location.state[0];
+    const uva = location.state[1];
+    const region = location.state[2];
+    const maridaje = location.state[3];
+    const precioPorBotella = location.state[4];
+    const precioPorCopa = location.state[5];
+    const thumbnail = location.state[6];
+
+    const navigate = useNavigate();
 
     return (
         <div className="row">
@@ -74,6 +76,10 @@ const EspecificacionesVinos = () => {
                                 </tbody>
                             </table>
                         </div>
+                        <a className="boton-regresar" onClick={() => navigate(-1)}>
+                            <FontAwesomeIcon icon={faLeftLong} /> Regresar
+                        </a>
+
                     </div>
                 </div>
             </div>

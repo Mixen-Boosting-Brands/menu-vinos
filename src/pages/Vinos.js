@@ -56,12 +56,12 @@ const CarruselVinos = () => {
                             {
                                 DataTinto.map((vino, i) => {
                                     let nombre = DataTinto[i].nombre;
-                                        uva = DataTinto[i].uva;
-                                        region = DataTinto[i].region;
-                                        maridaje = DataTinto[i].maridaje;
-                                        precioPorBotella = DataTinto[i].precioPorBotella;
-                                        precioPorCopa = DataTinto[i].precioPorCopa;
-                                        thumbnail = ThumbsTinto[i + 1];
+                                    let uva = DataTinto[i].uva;
+                                    let region = DataTinto[i].region;
+                                    let maridaje = DataTinto[i].maridaje;
+                                    let precioPorBotella = DataTinto[i].precioPorBotella;
+                                    let precioPorCopa = DataTinto[i].precioPorCopa;
+                                    let thumbnail = ThumbsTinto[i + 1];
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -80,7 +80,7 @@ const CarruselVinos = () => {
                                                 }
                                             >
                                                 <img src={thumbnail} alt="" className="img-fluid" loading="lazy" />
-                                                <div class="swiper-lazy-preloader-white"></div>
+                                                <div className="swiper-lazy-preloader-white"></div>
                                             </Link>
                                         </SwiperSlide>
                                     );
@@ -107,12 +107,12 @@ const CarruselVinos = () => {
                             {
                                 DataRosado.map((vino, i) => {
                                     let nombre = DataRosado[i].nombre;
-                                        uva = DataRosado[i].uva;
-                                        region = DataRosado[i].region;
-                                        maridaje = DataRosado[i].maridaje;
-                                        precioPorBotella = DataRosado[i].precioPorBotella;
-                                        precioPorCopa = DataRosado[i].precioPorCopa;
-                                        thumbnail = ThumbsRosado[i + 1];
+                                    let uva = DataRosado[i].uva;
+                                    let region = DataRosado[i].region;
+                                    let maridaje = DataRosado[i].maridaje;
+                                    let precioPorBotella = DataRosado[i].precioPorBotella;
+                                    let precioPorCopa = DataRosado[i].precioPorCopa;
+                                    let thumbnail = ThumbsRosado[i + 1];
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -131,7 +131,7 @@ const CarruselVinos = () => {
                                                 }
                                             >
                                                 <img src={thumbnail} alt="" className="img-fluid" loading="lazy" />
-                                                <div class="swiper-lazy-preloader-white"></div>
+                                                <div className="swiper-lazy-preloader-white"></div>
                                             </Link>
                                         </SwiperSlide>
                                     );
@@ -158,12 +158,12 @@ const CarruselVinos = () => {
                             {
                                 DataBlanco.map((vino, i) => {
                                     let nombre = DataBlanco[i].nombre;
-                                        uva = DataBlanco[i].uva;
-                                        region = DataBlanco[i].region;
-                                        maridaje = DataBlanco[i].maridaje;
-                                        precioPorBotella = DataBlanco[i].precioPorBotella;
-                                        precioPorCopa = DataBlanco[i].precioPorCopa;
-                                        thumbnail = ThumbsBlanco[i + 1];
+                                    let uva = DataBlanco[i].uva;
+                                    let region = DataBlanco[i].region;
+                                    let maridaje = DataBlanco[i].maridaje;
+                                    let precioPorBotella = DataBlanco[i].precioPorBotella;
+                                    let precioPorCopa = DataBlanco[i].precioPorCopa;
+                                    let thumbnail = ThumbsBlanco[i + 1];
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -182,7 +182,7 @@ const CarruselVinos = () => {
                                                 }
                                             >
                                                 <img src={thumbnail} alt="" className="img-fluid" loading="lazy" />
-                                                <div class="swiper-lazy-preloader-white"></div>
+                                                <div className="swiper-lazy-preloader-white"></div>
                                             </Link>
                                         </SwiperSlide>
                                     );

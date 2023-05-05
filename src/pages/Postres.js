@@ -46,7 +46,7 @@ const CarruselPostres = () => {
                                                     <p className="precio">{postre.precio}</p>
                                                 </div>
                                                 <img src={Thumbs[i + 1]} alt="" className="img-fluid" loading="lazy" />
-                                                <div class="swiper-lazy-preloader-white"></div>
+                                                <div className="swiper-lazy-preloader-white"></div>
                                             </div>
                                         </div>
                                         <div className="col-5 my-auto">
