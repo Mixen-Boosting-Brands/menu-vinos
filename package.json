@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build src/index.html --public-url='./'"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Mixen-Boosting-Brands/menu-vinos/issues"
   },
-  "homepage": "https://github.com/Mixen-Boosting-Brands/menu-vinos#readme",
+  "homepage": "https://gruporuan.mx/vinosypostres",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.8.3",
     "@parcel/resolver-glob": "^2.8.3",
