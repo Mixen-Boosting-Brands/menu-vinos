@@ -72,7 +72,7 @@
     },
     {
         "id": 8,
-        "nombre": "Angelin",
+        "nombre": "Anxelin",
         "uva": "Cabernet Sauvignon",
         "region": "Hacienda Encinillas, Chihuahua, México",
         "maridaje": "Carnes rojas, tacos agave,tacos gobernador, quesos fundidos",
@@ -83,7 +83,7 @@
     {
         "id": 9,
         "nombre": "Asis",
-        "uva": "Merlot - shiraz",
+        "uva": "Merlot - Shiraz",
         "region": "Hacienda Encinillas, Chihuahua, México",
         "maridaje": "Carnes rojas y quesos maduros",
         "precioPorBotella": "$1,100.00",
@@ -226,36 +226,6 @@
         "nombre": "Las Moras Malbec",
         "uva": "Malbec",
         "region": "Argentina",
-        "maridaje": "Carnes rojas y quesos maduros",
-        "precioPorBotella": "$450.00",
-        "precioPorCopa": "$120.00",
-        "thumbnail": "./images/vinos/tinto/thumb-vino-1.png"
-    },
-    {
-        "id": 24,
-        "nombre": "Cavall Rose",
-        "uva": "Zinfandel",
-        "region": "Cd. Delicias, Chihuahua, México",
-        "maridaje": "Mariscos, aves y pescados",
-        "precioPorBotella": "$500.00",
-        "precioPorCopa": "-",
-        "thumbnail": "./images/vinos/tinto/thumb-vino-1.png"
-    },
-    {
-        "id": 25,
-        "nombre": "Zinfandel La Cetto",
-        "uva": "Zinfandel",
-        "region": "Valle de Guadalupe, México",
-        "maridaje": "Mariscos, aves y pescados",
-        "precioPorBotella": "$450.00",
-        "precioPorCopa": "$120.00",
-        "thumbnail": "./images/vinos/tinto/thumb-vino-1.png"
-    },
-    {
-        "id": 26,
-        "nombre": "Blanc de Blancs La Cetto",
-        "uva": "La Cetto Blanc de Blancs",
-        "region": "Cd. Delicias, Chihuahua, México",
         "maridaje": "Carnes rojas y quesos maduros",
         "precioPorBotella": "$450.00",
         "precioPorCopa": "$120.00",

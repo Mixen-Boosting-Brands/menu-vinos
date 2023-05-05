@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 
 const EspecificacionesVinos = () => {
     useEffect(() => {
@@ -59,13 +61,13 @@ const EspecificacionesVinos = () => {
                                     </tr>
                                     <tr>
                                         <th scope="row">
-                                            <div className="icono icono-precio-por-botella"></div>
+                                            <FontAwesomeIcon icon={faDollarSign} />
                                         </th>
                                         <td>Precio por botella: {precioPorBotella}</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
-                                            <div className="icono icono-precio-por-copa"></div>
+                                            <FontAwesomeIcon icon={faDollarSign} />
                                         </th>
                                         <td>Precio por copa: {precioPorCopa}</td>
                                     </tr>

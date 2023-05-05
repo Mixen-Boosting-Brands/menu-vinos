@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { Link } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,9 +17,9 @@ import * as Thumbs from '../images/postres/thumb-postre-*.png';
 
 const CarruselPostres = () => {
     useEffect(() => {
-        document.body.classList.add('carrusel-layout')
+        document.body.classList.add('carrusel-layout', 'postres-layout')
         return () => {
-            document.body.classList.remove('carrusel-layout')
+            document.body.classList.remove('carrusel-layout', 'postres-layout')
         }
     }, [])
     
@@ -28,7 +27,7 @@ const CarruselPostres = () => {
         <div className="row">
             <div className="col-12 overflow-hidden">
                 <Swiper
-                    slidesPerView={4}
+                    slidesPerView={1}
                     spaceBetween={30}
                     pagination={{
                         clickable: true,
@@ -40,9 +39,24 @@ const CarruselPostres = () => {
                         Postres.map((postre, i) => {
                             return (
                                 <SwiperSlide key={i}>
-                                    <Link to="/postres">
-                                        <img src={Thumbs[i + 1]} alt="" className="img-fluid" />
-                                    </Link>
+                                    <div className="row">
+                                        <div className="col-3 offset-2 my-auto">
+                                            <div className="thumbnail-postre">
+                                                <div className="overlay">
+                                                    <p className="precio">{postre.precio}</p>
+                                                </div>
+                                                <img src={Thumbs[i + 1]} alt="" className="img-fluid" loading="lazy" />
+                                                <div class="swiper-lazy-preloader-white"></div>
+                                            </div>
+                                        </div>
+                                        <div className="col-5 my-auto">
+                                            <h1>
+                                                {postre.nombre}<br></br>
+                                                <span className="cursiva">{postre.cursiva}</span>
+                                            </h1>
+                                            <p>{postre.texto}</p>
+                                        </div>
+                                    </div>
                                 </SwiperSlide>
                             );
                         })

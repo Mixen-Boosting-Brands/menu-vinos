@@ -2,22 +2,34 @@
 [
     {
         "id": 1,
-        "nombre": "Pastel Luxury Ice Cream",
-        "precio": "$295.00"
+        "nombre": "Flan",
+        "cursiva": "Napolitano",
+        "texto": "El Famoso",
+        "precio": "$125.00",
+        "thumbnail": "./images/postres/thumb-postre-1.png"
     },
     {
         "id": 2,
-        "nombre": "Flan Napolitano",
-        "precio": "$125.00"
+        "nombre": "Pastel",
+        "cursiva": "Luxury",
+        "texto": "Ice Cream",
+        "precio": "$295.00",
+        "thumbnail": "./images/postres/thumb-postre-2.png"
     },
     {
         "id": 3,
-        "nombre": "Pay de Guayaba",
-        "precio": "$125.00"
+        "nombre": "Pay de",
+        "cursiva": "Guayaba",
+        "texto": "La Receta Original",
+        "precio": "$125.00",
+        "thumbnail": "./images/postres/thumb-postre-3.png"
     },
     {
         "id": 4,
-        "nombre": "Pan de Elote c/ nieve y baileys",
-        "precio": "$215.00"
+        "nombre": "Pan de Elote con:",
+        "cursiva": "Nieve & Baileys",
+        "texto": "",
+        "precio": "$215.00",
+        "thumbnail": "./images/postres/thumb-postre-4.png"
     }
 ]

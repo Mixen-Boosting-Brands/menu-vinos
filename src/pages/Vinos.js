@@ -33,9 +33,9 @@ import * as ThumbsBlanco from '../images/vinos/blanco/thumb-vino-*.png';
 const CarruselVinos = () => {
     let location = useLocation();
     useEffect(() => {
-        document.body.classList.add('carrusel-layout')
+        document.body.classList.add('carrusel-layout', 'vinos-layout')
         return () => {
-            document.body.classList.remove('carrusel-layout')
+            document.body.classList.remove('carrusel-layout', 'vinos-layout')
         }
     }, [location])
 
@@ -43,7 +43,7 @@ const CarruselVinos = () => {
         case "/tinto":
             return (
                 <div className="row">
-                    <div className="col-12 overflow-hidden">
+                    <div className="col-8 offset-2 overflow-hidden">
                         <Swiper
                             slidesPerView={4}
                             spaceBetween={30}
@@ -79,7 +79,8 @@ const CarruselVinos = () => {
                                                     ]
                                                 }
                                             >
-                                                <img src={thumbnail} alt="" className="img-fluid" />
+                                                <img src={thumbnail} alt="" className="img-fluid" loading="lazy" />
+                                                <div class="swiper-lazy-preloader-white"></div>
                                             </Link>
                                         </SwiperSlide>
                                     );
@@ -93,7 +94,7 @@ const CarruselVinos = () => {
         case "/rosado":
             return (
                 <div className="row">
-                    <div className="col-12 overflow-hidden">
+                    <div className="col-8 offset-2 overflow-hidden">
                         <Swiper
                             slidesPerView={4}
                             spaceBetween={30}
@@ -105,13 +106,13 @@ const CarruselVinos = () => {
                         >
                             {
                                 DataRosado.map((vino, i) => {
-                                    let nombre = DataTinto[i].nombre;
-                                        uva = DataTinto[i].uva;
-                                        region = DataTinto[i].region;
-                                        maridaje = DataTinto[i].maridaje;
-                                        precioPorBotella = DataTinto[i].precioPorBotella;
-                                        precioPorCopa = DataTinto[i].precioPorCopa;
-                                        thumbnail = ThumbsTinto[i + 1];
+                                    let nombre = DataRosado[i].nombre;
+                                        uva = DataRosado[i].uva;
+                                        region = DataRosado[i].region;
+                                        maridaje = DataRosado[i].maridaje;
+                                        precioPorBotella = DataRosado[i].precioPorBotella;
+                                        precioPorCopa = DataRosado[i].precioPorCopa;
+                                        thumbnail = ThumbsRosado[i + 1];
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -129,7 +130,8 @@ const CarruselVinos = () => {
                                                     ]
                                                 }
                                             >
-                                                <img src={thumbnail} alt="" className="img-fluid" />
+                                                <img src={thumbnail} alt="" className="img-fluid" loading="lazy" />
+                                                <div class="swiper-lazy-preloader-white"></div>
                                             </Link>
                                         </SwiperSlide>
                                     );
@@ -143,7 +145,7 @@ const CarruselVinos = () => {
         case "/blanco":
             return (
                 <div className="row">
-                    <div className="col-12 overflow-hidden">
+                    <div className="col-8 offset-2 overflow-hidden">
                         <Swiper
                             slidesPerView={4}
                             spaceBetween={30}
@@ -155,13 +157,13 @@ const CarruselVinos = () => {
                         >
                             {
                                 DataBlanco.map((vino, i) => {
-                                    let nombre = DataTinto[i].nombre;
-                                        uva = DataTinto[i].uva;
-                                        region = DataTinto[i].region;
-                                        maridaje = DataTinto[i].maridaje;
-                                        precioPorBotella = DataTinto[i].precioPorBotella;
-                                        precioPorCopa = DataTinto[i].precioPorCopa;
-                                        thumbnail = ThumbsTinto[i + 1];
+                                    let nombre = DataBlanco[i].nombre;
+                                        uva = DataBlanco[i].uva;
+                                        region = DataBlanco[i].region;
+                                        maridaje = DataBlanco[i].maridaje;
+                                        precioPorBotella = DataBlanco[i].precioPorBotella;
+                                        precioPorCopa = DataBlanco[i].precioPorCopa;
+                                        thumbnail = ThumbsBlanco[i + 1];
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -179,7 +181,8 @@ const CarruselVinos = () => {
                                                     ]
                                                 }
                                             >
-                                                <img src={thumbnail} alt="" className="img-fluid" />
+                                                <img src={thumbnail} alt="" className="img-fluid" loading="lazy" />
+                                                <div class="swiper-lazy-preloader-white"></div>
                                             </Link>
                                         </SwiperSlide>
                                     );
