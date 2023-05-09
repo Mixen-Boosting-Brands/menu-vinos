@@ -8,5 +8,15 @@
         "precioPorBotella": "$450.00",
         "precioPorCopa": "$120.00",
         "thumbnail": "./images/vinos/blanco/thumb-vino-1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Casillero del Diablo Belight",
+        "uva": "Sauvignon Blanc",
+        "region": "Valle Central, Chile",
+        "maridaje": "-",
+        "precioPorBotella": "-",
+        "precioPorCopa": "$120.00",
+        "thumbnail": "./images/vinos/blanco/thumb-vino-2.png"
     }
 ]
