@@ -12,10 +12,10 @@
     {
         "id": 2,
         "nombre": "Casillero del Diablo Belight",
-        "uva": "Sauvignon Blanc",
-        "region": "Valle Central, Chile",
-        "maridaje": "-",
-        "precioPorBotella": "-",
+        "uva": "Suavignon blanc, reducido en calorias",
+        "region": "Chile",
+        "maridaje": "Carnes blancas y mariscos",
+        "precioPorBotella": "$450.00",
         "precioPorCopa": "$120.00",
         "thumbnail": "./images/vinos/blanco/thumb-vino-2.png"
     }
