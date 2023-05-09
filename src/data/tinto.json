@@ -230,5 +230,15 @@
         "precioPorBotella": "$450.00",
         "precioPorCopa": "$120.00",
         "thumbnail": "./images/vinos/tinto/thumb-vino-1.png"
+    },
+    {
+        "id": 24,
+        "nombre": "Casillero 67",
+        "uva": "Cabernet Sauvignon / Merlot",
+        "region": "Valle de Delicias, Chihuahua",
+        "maridaje": "Carnes rojas y quesos maduros",
+        "precioPorBotella": "$450.00",
+        "precioPorCopa": "$120.00",
+        "thumbnail": "./images/vinos/tinto/thumb-vino-24.png"
     }
 ]
