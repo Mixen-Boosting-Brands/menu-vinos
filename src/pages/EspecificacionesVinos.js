@@ -1,18 +1,43 @@
 import { useEffect } from 'react';
 import { useLocation, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWineGlass } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils } from '@fortawesome/free-solid-svg-icons';
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import { faLeftLong } from '@fortawesome/free-solid-svg-icons';
 
 const EspecificacionesVinos = () => {
-    useEffect(() => {
-        document.body.classList.add('especificaciones-vinos-layout')
-        return () => {
-            document.body.classList.remove('especificaciones-vinos-layout')
-        }
-    }, [])
-
     const location = useLocation();
+
+    switch (location.state[7].pathname) {
+        case '/tinto':
+            useEffect(() => {
+                document.body.classList.add('especificaciones-vinos-layout', 'especificaciones-vinos-layout-tinto')
+                return () => {
+                    document.body.classList.remove('especificaciones-vinos-layout', 'especificaciones-vinos-layout-tinto')
+                }
+            }, [])
+            break;
+        case '/rosado':
+            useEffect(() => {
+                document.body.classList.add('especificaciones-vinos-layout', 'especificaciones-vinos-layout-rosado')
+                return () => {
+                    document.body.classList.remove('especificaciones-vinos-layout', 'especificaciones-vinos-layout-rosado')
+                }
+            }, [])
+            break;
+        case '/blanco':
+            useEffect(() => {
+                document.body.classList.add('especificaciones-vinos-layout', 'especificaciones-vinos-layout-blanco')
+                return () => {
+                    document.body.classList.remove('especificaciones-vinos-layout', 'especificaciones-vinos-layout-blanco')
+                }
+            }, [])
+            break;
+        default:
+    }
+
     const nombre = location.state[0];
     const uva = location.state[1];
     const region = location.state[2];
@@ -45,19 +70,19 @@ const EspecificacionesVinos = () => {
                                 <tbody>
                                     <tr>
                                         <th scope="row">
-                                            <div className="icono icono-uva"></div>
+                                            <FontAwesomeIcon icon={faWineGlass} />
                                         </th>
                                         <td>Uva: {uva}</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
-                                            <div className="icono icono-region"></div>
+                                            <FontAwesomeIcon icon={faLocationDot} />
                                         </th>
                                         <td>Región: {region}</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
-                                            <div className="icono icono-maridaje"></div>
+                                            <FontAwesomeIcon icon={faUtensils} />
                                         </th>
                                         <td>Maridaje: {maridaje}</td>
                                     </tr>

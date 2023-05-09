@@ -40,8 +40,8 @@ const CarruselPostres = () => {
                             return (
                                 <SwiperSlide key={i}>
                                     <div className="row">
-                                        <div className="col-3 offset-2 my-auto">
-                                            <div className="thumbnail-postre">
+                                        <div className="col-5 offset-1 my-auto">
+                                            <div className={`thumbnail-postre thumbnail-postre-${i+1}`}>
                                                 <div className="overlay">
                                                     <p className="precio">{postre.precio}</p>
                                                 </div>

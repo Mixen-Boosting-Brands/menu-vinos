@@ -19,7 +19,9 @@
         display: block;
 
         img {
-            height: auto;
+            width: 100%;
+            // height: auto;
+            object-fit: cover;
         }
     }
 
@@ -47,6 +49,30 @@
                 right: 0;
                 bottom: -18px;
             }
+        }
+    }
+
+    .thumbnail-postre-1 {
+        img {
+            object-position: 50% 60%;
+        }
+    }
+
+    .thumbnail-postre-2 {
+        img {
+            object-position: 50% 30%;
+        }
+    }
+
+    .thumbnail-postre-3 {
+        img {
+            object-position: 50% 60%;
+        }
+    }
+
+    .thumbnail-postre-4 {
+        img {
+            object-position: 50% 65%;
         }
     }
 }

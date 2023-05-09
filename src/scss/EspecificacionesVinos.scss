@@ -4,6 +4,48 @@
 
 .especificaciones-vinos-layout {
     @include background('../images/bg-interna.webp', center, cover);
+
+    .thumbnail-vino {
+        height: 64vh;
+    }
+
+    table {
+        .icono {
+            @include background('../images/sprite-especificaciones-vinos.webp', center, cover);
+            width: 43px;
+            height: 33px;
+        }
+
+        .icono-uva {
+            background-position: 0 0;
+        }
+
+        .icono-region {
+            background-position: 0 -45px;
+        }
+
+        .icono-maridaje {
+            background-position: 0 -91px;
+        }
+
+        .icono-precio-por-botella {
+            background-position: 0 0;
+        }
+
+        .icono-precio-por-copa {
+            background-position: 0 0;
+        }
+
+        .fa-wine-glass,
+        .fa-location-dot,
+        .fa-utensils,
+        .fa-dollar-sign {
+            margin-left: 16px;
+        }
+    }
+}
+
+.especificaciones-vinos-layout-tinto {
     background-color: $guinda;
     color: $crema;
 
@@ -37,41 +79,85 @@
         }
     }
 
-    .thumbnail-vino {
-        height: 64vh;
+    table {
+        color: $crema;
+    }
+}
+
+.especificaciones-vinos-layout-rosado {
+    background-color: $rosa;
+    color: $guinda;
+
+    a {
+        color: $guinda;
+
+        &:hover {
+            color: $blanco;
+        }
+    }
+
+    .active {
+        color: $guinda;
+    }
+
+    footer {
+        a {
+            color: $guinda;
+
+            &:hover {
+                color: $blanco;
+            }
+        }
+
+        .logo {
+            filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(2340%) hue-rotate(342deg) brightness(82%) contrast(94%);
+
+            &:hover {
+                filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
+            }
+        }
     }
 
     table {
-        color: $crema;
+        color: $guinda;
+    }
+}
 
-        .icono {
-            @include background('../images/sprite-especificaciones-vinos.webp', center, cover);
-            width: 43px;
-            height: 33px;
+.especificaciones-vinos-layout-blanco {
+    background-color: $crema;
+    color: $guinda;
+
+    a {
+        color: $guinda;
+
+        &:hover {
+            color: $blanco;
+        }
+    }
+
+    .active {
+        color: $guinda;
+    }
+
+    footer {
+        a {
+            color: $guinda;
+
+            &:hover {
+                color: $blanco;
+            }
         }
 
-        .icono-uva {
-            background-position: 0 0;
-        }
+        .logo {
+            filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(2340%) hue-rotate(342deg) brightness(82%) contrast(94%);
 
-        .icono-region {
-            background-position: 0 -45px;
+            &:hover {
+                filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(4342%) hue-rotate(297deg) brightness(126%) contrast(93%);
+            }
         }
+    }
 
-        .icono-maridaje {
-            background-position: 0 -91px;
-        }
-
-        .icono-precio-por-botella {
-            background-position: 0 0;
-        }
-
-        .icono-precio-por-copa {
-            background-position: 0 0;
-        }
-
-        .fa-dollar-sign {
-            margin-left: 16px;
-        }
+    table {
+        color: $guinda;
     }
 }

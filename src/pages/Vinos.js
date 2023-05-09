@@ -43,13 +43,14 @@ const CarruselVinos = () => {
         case "/tinto":
             return (
                 <div className="row">
-                    <div className="col-8 offset-2 overflow-hidden">
+                    <div className="col-12 overflow-hidden">
                         <Swiper
-                            slidesPerView={4}
-                            spaceBetween={30}
+                            slidesPerView={6}
+                            spaceBetween={60}
                             pagination={{
                                 clickable: true,
                             }}
+                            touchEventsTarget={'container'}
                             modules={[Pagination]}
                             className="carrusel"
                         >
@@ -62,6 +63,7 @@ const CarruselVinos = () => {
                                     let precioPorBotella = DataTinto[i].precioPorBotella;
                                     let precioPorCopa = DataTinto[i].precioPorCopa;
                                     let thumbnail = ThumbsTinto[i + 1];
+                                    let fromPage = location;
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -75,7 +77,8 @@ const CarruselVinos = () => {
                                                         maridaje,
                                                         precioPorBotella,
                                                         precioPorCopa,
-                                                        thumbnail
+                                                        thumbnail,
+                                                        fromPage
                                                     ]
                                                 }
                                             >
@@ -97,10 +100,11 @@ const CarruselVinos = () => {
                     <div className="col-8 offset-2 overflow-hidden">
                         <Swiper
                             slidesPerView={4}
-                            spaceBetween={30}
+                            spaceBetween={60}
                             pagination={{
                                 clickable: true,
                             }}
+                            touchEventsTarget={'container'}
                             modules={[Pagination]}
                             className="carrusel"
                         >
@@ -113,6 +117,7 @@ const CarruselVinos = () => {
                                     let precioPorBotella = DataRosado[i].precioPorBotella;
                                     let precioPorCopa = DataRosado[i].precioPorCopa;
                                     let thumbnail = ThumbsRosado[i + 1];
+                                    let fromPage = location;
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -126,7 +131,8 @@ const CarruselVinos = () => {
                                                         maridaje,
                                                         precioPorBotella,
                                                         precioPorCopa,
-                                                        thumbnail
+                                                        thumbnail,
+                                                        fromPage
                                                     ]
                                                 }
                                             >
@@ -148,10 +154,11 @@ const CarruselVinos = () => {
                     <div className="col-8 offset-2 overflow-hidden">
                         <Swiper
                             slidesPerView={4}
-                            spaceBetween={30}
+                            spaceBetween={60}
                             pagination={{
                                 clickable: true,
                             }}
+                            touchEventsTarget={'container'}
                             modules={[Pagination]}
                             className="carrusel"
                         >
@@ -164,6 +171,7 @@ const CarruselVinos = () => {
                                     let precioPorBotella = DataBlanco[i].precioPorBotella;
                                     let precioPorCopa = DataBlanco[i].precioPorCopa;
                                     let thumbnail = ThumbsBlanco[i + 1];
+                                    let fromPage = location;
 
                                     return (
                                         <SwiperSlide key={i}>
@@ -177,7 +185,8 @@ const CarruselVinos = () => {
                                                         maridaje,
                                                         precioPorBotella,
                                                         precioPorCopa,
-                                                        thumbnail
+                                                        thumbnail,
+                                                        fromPage
                                                     ]
                                                 }
                                             >

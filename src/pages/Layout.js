@@ -27,7 +27,7 @@ const Layout = () => {
                 </ul>
             </nav>
 
-            <section className="container">
+            <section className="container-fluid">
                 <Outlet />
             </section>
 
