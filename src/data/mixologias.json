@@ -1,0 +1,35 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Flan",
+        "cursiva": "Napolitano",
+        "texto": "El Famoso",
+        "precio": "$125.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Pastel",
+        "cursiva": "Luxury",
+        "texto": "Ice Cream",
+        "precio": "$295.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Pay de",
+        "cursiva": "Guayaba",
+        "texto": "La Receta Original",
+        "precio": "$125.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Pan de Elote con:",
+        "cursiva": "Nieve & Baileys",
+        "texto": "",
+        "precio": "$215.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-4.png"
+    }
+]

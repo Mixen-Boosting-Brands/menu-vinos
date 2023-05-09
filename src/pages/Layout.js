@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faWineBottle } from '@fortawesome/free-solid-svg-icons';
 import { faIceCream } from '@fortawesome/free-solid-svg-icons';
+import { faMartiniGlass } from '@fortawesome/free-solid-svg-icons';
 
 const Layout = () => {
     return (
@@ -22,6 +23,11 @@ const Layout = () => {
                     <li className="list-inline-item">
                         <NavLink to="/postres">
                             <FontAwesomeIcon icon={faIceCream} /> Postres
+                        </NavLink>
+                    </li>
+                    <li className="list-inline-item">
+                        <NavLink to="/mixologia">
+                            <FontAwesomeIcon icon={faMartiniGlass} /> Mixología
                         </NavLink>
                     </li>
                 </ul>

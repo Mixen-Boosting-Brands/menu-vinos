@@ -6,6 +6,7 @@ import CatalogoVinos from "../pages/CatalogoVinos";
 import Vinos from "../pages/Vinos";
 import EspecificacionesVinos from "../pages/EspecificacionesVinos";
 import Postres from "../pages/Postres";
+import Mixologias from "../pages/Mixologias";
 import NoPage from "../pages/NoPage";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path="blanco" element={<Vinos />} />
                     <Route path="especificaciones" element={<EspecificacionesVinos />} />
                     <Route path="postres" element={<Postres />} />
+                    <Route path="mixologia" element={<Mixologias />} />
                     <Route path="*" element={<NoPage />} />
                 </Route>
             </Routes>
