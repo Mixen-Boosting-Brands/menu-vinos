@@ -44,7 +44,7 @@
         "id": 6,
         "nombre": "Mojito Agave",
         "cursiva": "",
-        "texto": "",
+        "texto": "Ron blanco, limón, miel de agave, hierba buena",
         "precio": "$110.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-6.png"
     },
@@ -52,7 +52,7 @@
         "id": 7,
         "nombre": "Clamato Preparado",
         "cursiva": "",
-        "texto": "",
+        "texto": "Salsas negras, salsas picantes, limón, escarcha de tajín, cerveza al gusto",
         "precio": "$80.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-7.png"
     },
@@ -60,7 +60,7 @@
         "id": 8,
         "nombre": "Mezcalita de Fresa",
         "cursiva": "",
-        "texto": "-",
+        "texto": "Mezcal 400 Conejos, jugo de limón, miel de agave, licor de naranja, puré de fresa",
         "precio": "$150.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-8.png"
     },
@@ -68,7 +68,7 @@
         "id": 9,
         "nombre": "Espresso Martini",
         "cursiva": "",
-        "texto": "",
+        "texto": "Kahlúa (licor de café) vodka Grey Goose, miel de agave, café espresso, granos de café entero",
         "precio": "$180.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-9.png"
     },
@@ -76,7 +76,7 @@
         "id": 10,
         "nombre": "Gin & Tonic",
         "cursiva": "",
-        "texto": "",
+        "texto": "Ginebra Bombay, frutos rojos, refresco Sprite, agua mineral",
         "precio": "$150.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-10.png"
     },
