@@ -84,4 +84,8 @@
     .boton-home-postres {
         @include background('../images/bg-boton-home-postres.webp', center, cover);
     }
+
+    .boton-home-mixologia {
+        @include background('../images/bg-boton-home-mixologia.webp', center, cover);
+    }
 }

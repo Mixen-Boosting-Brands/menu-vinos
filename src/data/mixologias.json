@@ -2,34 +2,90 @@
 [
     {
         "id": 1,
-        "nombre": "Flan",
-        "cursiva": "Napolitano",
-        "texto": "El Famoso",
-        "precio": "$125.00",
+        "nombre": "Motivo",
+        "cursiva": "",
+        "texto": "Bacardi Oro, St. Germain, Aperol, Mermelada de Naranja, Limón & Endulzante",
+        "precio": "$145.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-1.png"
     },
     {
         "id": 2,
-        "nombre": "Pastel",
-        "cursiva": "Luxury",
-        "texto": "Ice Cream",
-        "precio": "$295.00",
+        "nombre": "Margarita Agave",
+        "cursiva": "",
+        "texto": "Cazadores Reposado, St. Germain, Puré de Guayaba, Limón, Miel de Agave & Sal Negra de Citricos",
+        "precio": "$160.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-2.png"
     },
     {
         "id": 3,
-        "nombre": "Pay de",
-        "cursiva": "Guayaba",
-        "texto": "La Receta Original",
-        "precio": "$125.00",
+        "nombre": "Cielo Rojo",
+        "cursiva": "",
+        "texto": "Mezcal, Aperol, Jugo de Toronja, Jarabe de Frambuesa, Bitters de Toronja & Clara de Huevo",
+        "precio": "$180.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-3.png"
     },
     {
         "id": 4,
-        "nombre": "Pan de Elote con:",
-        "cursiva": "Nieve & Baileys",
-        "texto": "",
-        "precio": "$215.00",
+        "nombre": "Mr. Blue",
+        "cursiva": "",
+        "texto": "Bombay Sapphire, Curacao Azul, Licor de Cacao Blanco, Jugo de Piña, Jarabe de Canela & Tónica",
+        "precio": "$120.00",
         "thumbnail": "./images/mixologias/thumb-mixologia-4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Amarillo by Morning",
+        "cursiva": "",
+        "texto": "St. Germain, Martini Bianco Jarabe de Manzanilla, Jugo de Limon & Soda",
+        "precio": "$160.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Mojito Agave",
+        "cursiva": "",
+        "texto": "",
+        "precio": "$110.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-6.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Clamato Preparado",
+        "cursiva": "",
+        "texto": "",
+        "precio": "$80.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-7.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Mezcalita de Fresa",
+        "cursiva": "",
+        "texto": "-",
+        "precio": "$150.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-8.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Espresso Martini",
+        "cursiva": "",
+        "texto": "",
+        "precio": "$180.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-9.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Gin & Tonic",
+        "cursiva": "",
+        "texto": "",
+        "precio": "$150.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-10.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Carajillo",
+        "cursiva": "",
+        "texto": "",
+        "precio": "$155.00",
+        "thumbnail": "./images/mixologias/thumb-mixologia-11.png"
     }
 ]

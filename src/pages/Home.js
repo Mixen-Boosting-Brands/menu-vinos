@@ -10,7 +10,7 @@ const Home = () => {
     }, [])
     return (
         <div className="row">
-            <div className="col-6 col-lg-4 offset-lg-2">
+            <div className="col-4">
                 <div className="boton-home boton-home-vinos">
                     <div className="overlay">
                         <span>Vinos</span>
@@ -20,13 +20,23 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="col-6 col-lg-3 offset-lg-1">
+            <div className="col-4">
                 <div className="boton-home boton-home-postres">
                     <div className="overlay">
                         <span>Postres</span>
                     </div>
                     <Link to="/postres">
                         <span>Postres</span>
+                    </Link>
+                </div>
+            </div>
+            <div className="col-4">
+                <div className="boton-home boton-home-mixologia">
+                    <div className="overlay">
+                        <span>Mixología</span>
+                    </div>
+                    <Link to="/mixologia">
+                        <span>Mixología</span>
                     </Link>
                 </div>
             </div>
